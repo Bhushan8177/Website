@@ -1,14 +1,14 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { Landing,Contact } from '../components'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
+import { Landing } from "../components";
 
 export default function Home() {
   return (
     <>
-    
-    <Landing/>
-    <Contact/>
+      {/* <h1>test</h1> */}
+      <Landing />
+      {/* <Contact/> */}
     </>
-  )
+  );
 }
