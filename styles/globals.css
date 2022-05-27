@@ -3,7 +3,7 @@
 @tailwind components;
 @tailwind utilities;
 /* ---------------------- */
-
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Paytone+One&display=swap");
 html,
 body {
   padding: 0;
@@ -25,3 +25,12 @@ a {
   height: 100vh;
 
 } */
+/* Landing Slide */
+
+.vision_section {
+  background-image: url(../components/assets/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
