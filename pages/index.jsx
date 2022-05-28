@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { Landing,Bhushan, Work } from "../components";
+import { Landing,Bhushan, Work,Register } from "../components";
 
 export default function Home() {
   return (
@@ -10,6 +10,7 @@ export default function Home() {
       <Landing />
       <Bhushan />
       <Work/>
+      <Register/>
       {/* <Contact/> */}
     </>
   );

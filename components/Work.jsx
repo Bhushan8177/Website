@@ -4,7 +4,7 @@ import downArrow from "./assets/downArrow.svg";
 
 const Vision = () => {
   return (
-    <>
+    <div className="lg:ml-32 lg:mr-32">
       <div className="justify-center text-center align-middle  relative top-[-20px] ">
         <Image src={downArrow} alt="down" width={"75px"} height={"75px"} />
       </div>
@@ -72,7 +72,7 @@ const Vision = () => {
             <h1 className="cursor-pointer rounded-2xl bg-[#FFC700] text-white font-semibold text-xl p-2 whitespace-nowrap w-[200px] text-center ">JOIN NOW</h1>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
