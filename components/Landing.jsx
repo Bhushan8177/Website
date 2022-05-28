@@ -16,7 +16,7 @@ const Landing = () => {
           CPMC
         </h1>
 
-        <div className="hamburger ml-auto justify-center items-center flex flex-col  space-y-2.5">
+        <div className="hamburger ml-auto justify-center cursor-pointer items-center flex flex-col  space-y-2.5">
           <div className="bg-[#fff] w-14 h-[4px] "></div>
           <div className="bg-[#fff] w-8 h-[4px] "></div>
           <div className="bg-[#fff] w-14 h-[4px] "></div>
