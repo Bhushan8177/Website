@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import { Footer, Navbar, TeamPage } from "../../components";
+import { Footer, Navbar, TeamPage } from "../../Components";
 import styles from "../../styles/Home.module.css";
 
 const Team = () => {

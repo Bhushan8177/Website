@@ -62,7 +62,7 @@ const Vision = () => {
             </div>
             <div className="text-[#fff] w-[120%] text-[20px] ">
               The Vision of our club in the next 2 years is to promote
-              competitive programming in the college and raise students'
+              competitive programming in the college and raise students
               problem-solving skills.
             </div>
           </div>
@@ -79,7 +79,7 @@ const Vision = () => {
             </div>
             <div className="text-[#fff] w-[120%] text-[20px] ">
               The Vision of our club in the next 2 years is to promote
-              competitive programming in the college and raise students'
+              competitive programming in the college and raise students
               problem-solving skills.
             </div>
           </div>

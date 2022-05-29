@@ -9,7 +9,7 @@ import {
   Register,
   Work,
   Vision,
-} from "../components";
+} from "../Components";
 
 export default function Home() {
   return (

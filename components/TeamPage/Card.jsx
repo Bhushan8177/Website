@@ -9,17 +9,20 @@ const Card = ({ m }) => {
   return (
     <>
       <div className={classes.card}>
+        <div className={classes.image_circle}> </div>
         <div className={classes.image_container}>
           <Image
             className={classes.image}
             src={m.photo}
-            width={250}
-            height={250}
+            width={210}
+            height={210}
           />
         </div>
-        <h1 className={classes.name}>{m.name}</h1>
-        <p className={classes.position}>{m.position}</p>
-        <p className={classes.class}>{m.class}</p>
+        <div className={classes.contents}>
+          <h1 className={classes.name}>{m.name}</h1>
+          <p className={classes.position}>{m.position}</p>
+          <p className={classes.class}>{m.class}</p>
+        </div>
         <div className={classes.social_container}>
           <ul className={classes.social_links}>
             <li className={classes.link_container}>
