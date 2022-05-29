@@ -11,30 +11,37 @@ import { AmbientLight } from "three";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Box from "./threejs/Box";
+import logo from "./assets/CPMCLogo.svg";
 const Landing = () => {
   return (
     <>
-      <div className="py-4 px-8 bg-[#004445] flex flex-row ">
+      <div className="py-4 px-8 bg-[#091E32] flex flex-row ">
+        <Image
+          src={logo}
+          className="lg:w-[138px] lg:h-[62px]"
+          width="138px"
+          height="62px"
+        />
         <div className="hamburger ml-auto justify-center cursor-pointer items-center flex flex-col  space-y-2.5">
           <div className="bg-[#fff] w-14 h-[4px] "></div>
           <div className="bg-[#fff] w-8 h-[4px] "></div>
           <div className="bg-[#fff] w-14 h-[4px] "></div>
         </div>
       </div>
-      <div className="font-semibold text-center align-middle justify-center h-[70vh] bg-[#004445] rounded-b-[16%]">
-        <h1 className="text-[#469697] pt-32 tracking-wide text-3xl lg:text-5xl pb-5">
+      <div className="font-bold text-center align-middle justify-center h-[70vh] bg-[#091E32] rounded-b-[16%]">
+        <h1 className="text-[#89BAEE] pt-32 tracking-wide text-3xl lg:text-5xl pb-5">
           Competetive Programming
         </h1>
 
         <h1 className="text-[#EDEDED]  tracking-wide text-3xl lg:text-5xl pb-5">
           and MentorShip Club
         </h1>
-        <h1 className="text-[#469697]  tracking-wide text-3xl lg:text-5xl">
+        <h1 className="text-[#89BAEE]  tracking-wide text-3xl lg:text-5xl">
           DYPCOE<span className="text-[#EDEDED]">, Pune.</span>
         </h1>
       </div>
 
-      <div className="flex flex-col lg:ml-64 lg:mr-64 pb-12 mt-8 ml-2 mr-2">
+      <div className="flex flex-col bg-[#0F263A] lg:ml-64 lg:mr-64 pb-12 mt-8 ml-2 mr-2">
         <div className="flex flex-row mb-8">
           <div className="inline-block w-[200px] h-[200px] float-right cursor-pointer">
             <Canvas className="">
@@ -46,13 +53,27 @@ const Landing = () => {
               </Suspense>
             </Canvas>
           </div>
-          <div className="text-[#469697] lg:text-4xl text-2xl font-bold lg:ml-[18rem] lg:pt-20 pt-8  ">
+          <div className="text-[#A8ECF0] lg:text-4xl text-2xl font-bold lg:ml-[18rem] lg:pt-8 pt-8  ">
+            <span className="text-2xl text-[#EDEDED] font-bold">01.</span>
+            <br />
             Improve problem solving skills
+            <br />
+            <h2 className="text-sm pt-4  text-[#EDEDED] font-semibold tracking-tight leading-normal">
+              Our primary goal is to promote CP in our college community and
+              help students enhance their problem-solving abilities.
+            </h2>
           </div>
         </div>
         <div className="flex flex-row mb-8">
-          <div className="text-[#469697] lg:text-4xl text-2xl font-bold lg:mr-[20rem] text-left pl-2 justify-left items-left lg:pt-20 pt-8 ">
+          <div className="text-[#A8ECF0] lg:text-4xl text-2xl font-bold lg:mr-[20rem] text-left pl-2 justify-left items-left lg:pt-8 pt-8 ">
+            <span className="text-2xl text-[#EDEDED] font-bold">02.</span>
+            <br />
             Group disccusion on Competitive programming
+            <br />
+            <h2 className="text-sm pt-4  text-[#EDEDED] font-semibold tracking-tight leading-normal">
+              Our primary goal is to promote CP in our college community and
+              help students enhance their problem-solving abilities.
+            </h2>
           </div>
           <div className="inline-block w-[200px] h-[200px]  cursor-pointer">
             <Canvas className="">
@@ -76,13 +97,20 @@ const Landing = () => {
               </Suspense>
             </Canvas>
           </div>
-          <div className="text-[#469697] lg:text-4xl text-2xl font-bold lg:ml-[18rem] lg:pt-20 pt-8">
+          <div className="text-[#A8ECF0] lg:text-4xl text-2xl font-bold lg:ml-[18rem] lg:pt-8 pt-8">
+            <span className="text-2xl text-[#EDEDED] font-bold">03.</span>
+            <br />
             Helping each other to learn new technical skill
+            <br />
+            <h2 className="text-sm pt-4  text-[#EDEDED] font-semibold tracking-tight leading-normal">
+              Our primary goal is to promote CP in our college community and
+              help students enhance their problem-solving abilities.
+            </h2>
           </div>
         </div>
       </div>
 
-       <section className="vision_section ">
+      <section className="vision_section ">
         <div className="text-center pt-[50px] font-Paytone font-[800] text-[48px] text-[#fff]">
           OUR VISION
         </div>
@@ -138,7 +166,7 @@ const Landing = () => {
             </div>
           </div>
         </div>
-      </section> 
+      </section>
     </>
   );
 };
