@@ -1,0 +1,37 @@
+.navbar {
+  padding: 20px 40px;
+  background-color: #004445;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.logo {
+  color: #ddf0a7;
+  font-size: 40px;
+  font-weight: 600;
+}
+.hamburger {
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  flex-direction: column;
+  gap: 16px;
+}
+.line1 {
+  background-color: #fff;
+  width: 56px;
+  height: 4px;
+}
+.line2 {
+  background-color: #fff;
+  width: 28px;
+  height: 4px;
+}
+.line3 {
+  background-color: #fff;
+  width: 56px;
+  height: 4px;
+}
