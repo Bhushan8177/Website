@@ -17,9 +17,9 @@ export default function Box(props) {
         const delta=new Clock()
         useFrame((clicked, delta) => {
             
-            ref.current.rotation.x += delta*0.1
-            ref.current.rotation.y += delta*0.1
-            ref.current.rotation.z += delta*0.1
+            ref.current.rotation.x += delta*0.5
+            ref.current.rotation.y += delta*0.5
+            ref.current.rotation.z += delta*0.5 
             if(hovered && delta<10){
                 delta*=2
                 ref.current.rotation.y +=Math.sin(delta)

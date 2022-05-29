@@ -110,63 +110,7 @@ const Landing = () => {
         </div>
       </div>
 
-      <section className="vision_section ">
-        <div className="text-center pt-[50px] font-Paytone font-[800] text-[48px] text-[#fff]">
-          OUR VISION
-        </div>
-        <div className="flex justify-center items-center  px-[100px] py-[100px] space-x-[150px]">
-          <div className="bg-[#fff] w-[250px] h-[250px] rounded-[50%] ">
-            <Image
-              src={v1}
-              alt="down"
-              width={"500px"}
-              height={"500px"}
-              className="rounded-[50%]"
-            ></Image>
-            <div className="text-[#fff] text-center font-[700] text-[36px]">
-              CP
-            </div>
-            <div className="text-[#fff] w-[120%] text-[20px] ">
-              The Vision of our club in the next 2 years is to promote
-              competitive programming in the college and raise students'
-              problem-solving skills.
-            </div>
-          </div>
-          <div className="bg-[#fff] w-[250px] h-[250px] rounded-[50%] ">
-            <Image
-              src={v2}
-              alt="down"
-              width={"500px"}
-              height={"500px"}
-              className="rounded-[50%]"
-            ></Image>
-            <div className=" whitespace-nowrap text-[#fff] text-center font-[700] text-[36px]">
-              Strong Community
-            </div>
-            <div className="text-[#fff] w-[120%] text-[20px] ">
-              The Vision of our club in the next 2 years is to promote
-              competitive programming in the college and raise students'
-              problem-solving skills.
-            </div>
-          </div>
-          <div className="bg-[#fff] w-[250px] h-[250px] rounded-[50%] ">
-            <Image
-              src={v3}
-              alt="down"
-              width={"500px"}
-              height={"500px"}
-              className="rounded-[50%]"
-            ></Image>
-            <div className="text-[#fff] text-center font-[700] text-[36px]">
-              Mentorship
-            </div>
-            <div className="text-[#fff] w-[120%] text-[20px] ">
-              We also aim to establish a mentorship among juniors and seniors,
-              so that every student learns and grows more.
-            </div>
-          </div>
-        </div>
-      </section>
+    
     </>
   );
 };
