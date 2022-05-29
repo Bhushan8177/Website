@@ -1,7 +1,15 @@
 import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
-import { LandingSlide, Navbar, Footer } from "../components";
+
+import {
+  LandingSlide,
+  Navbar,
+  Footer,
+  Register,
+  Work,
+  Vision,
+} from "../components";
 
 export default function Home() {
   return (
@@ -13,6 +21,9 @@ export default function Home() {
       </Head>
       <Navbar />
       <LandingSlide />
+      <Vision />
+      <Work />
+      <Register />
       <Footer />
     </>
   );
