@@ -5,6 +5,8 @@ export { default as Footer } from "./Footer/Footer";
 export { default as Register } from "./Register";
 export { default as Work } from "./Work";
 export { default as Vision } from "./Vision";
+export { default as JoinClub } from "./JoinClub";
+export { default as AboutTeam } from "./AboutTeam";
 export { default as Timeline } from "./Timeline";
 export { default as Mission } from "./Mission";
 export { default as TeamPage } from "./TeamPage/TeamPage";
