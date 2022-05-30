@@ -1,10 +1,18 @@
 import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+// import Image from "next/image";
+// import styles from "../styles/Home.module.css";
+// import * as THREE from "three";
+// import react, { useEffect, useRef, Suspense } from "react";
+// import { Canvas } from "@react-three/fiber";
+// import Box from "../components/threejs/Box";
+// import { OrbitControls } from "@react-three/drei";
+// import { AmbientLight } from "three";
 
 import {
-  LandingSlide,
   Navbar,
+  LandingSlide,
+  Timeline,
+  Mission,
   Footer,
   Register,
   Work,
@@ -21,7 +29,9 @@ export default function Home() {
       </Head>
       <Navbar />
       <LandingSlide />
+      <Timeline />
       <Vision />
+      <Mission />
       <Work />
       <Register />
       <Footer />

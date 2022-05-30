@@ -1,7 +1,8 @@
-import Image from "next/image";
 import React from "react";
-import classes from "./LandingSlide.module.css";
+import Image from "next/image";
 import down_arrow from "../assets/downArrow.svg";
+
+import classes from "./LandingSlide.module.css";
 
 const LandingSlide = () => {
   return (
