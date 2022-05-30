@@ -31,7 +31,7 @@ const Mission = () => {
       </div>
       <div className="lg:container  lg:flex lg:flex-row">
         <div className="flex flex-col  text-[#95EBF0] rounded-xl  ">
-          <div className="lg:mb-4 rounded-2xl lg:mt-4 bg-[#0F263A] lg:p-2 lg:w-[346px] lg:h-[296px] ml-12 mr-12 mt-8 mb-4">
+          <div className="lg:mb-4 rounded-2xl lg:mt-4 bg-[#0F263A] lg:p-2 lg:w-[346px] lg:h-[296px] ml-12 mr-12 mt-8 mb-4 ">
             {/* <span className="text-2xl text-[#EDEDED] font-bold">01.</span> */}
             <div className="flex justify-center items-center">
             <Image src={strongCommunity}/>
@@ -58,15 +58,15 @@ const Mission = () => {
             </h2>
           </div>
         </div>
-        <div className="lg:mb-4 rounded-xl  bg-[#0F263A] lg:p-2 lg:w-[369px] lg:h-[275px] lg:mt-[180px] lg:ml-0  ml-[44px] mt-6 mr-[44px] lg:mr-[100px]  ">
-            {/* <span className="text-2xl text-[#EDEDED] font-bold">01.</span> */}
-            <div className="flex justify-center items-center">
+        <div className="lg:mb-4 rounded-xl  bg-[#0F263A] lg:p-2 lg:w-auto lg:h-[50%] lg:pb-0 lg:mt-[180px] lg:ml-0  ml-[44px] mt-6 mr-[44px] lg:mr-[100px]  ">
+         
+            <div className="flex lg:pl-8 lg:pr-8 justify-center items-center">
             <Image src={competativeProgramming}/>
             </div>
-           <div className="text-2xl font-semibold text-center text-[#95EBF0]">
+           <div className="text-2xl lg:pl-8 lg:pr-8 font-semibold text-center text-[#95EBF0]">
            Competitive Programming
            </div>
-            <div className="lg:w-[369px]">
+            <div className="lg:w-auto">
 
             <h2 className="text-sm p-4  text-[#EDEDED] font-semibold tracking-tight leading-normal text-center">
             Our primary goal is to promote CP in our college community and help students enhance their problem-solving abilities.

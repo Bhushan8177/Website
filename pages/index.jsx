@@ -30,7 +30,7 @@ export default function Home() {
       <Navbar />
       <LandingSlide />
       <Timeline />
-      <Vision />
+      {/* <Vision /> */}
       <Mission />
       <Work />
       <Register />
