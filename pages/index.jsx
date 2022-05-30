@@ -17,6 +17,7 @@ import {
   Register,
   Work,
   Vision,
+  JoinClub
 } from "../Components";
 
 export default function Home() {
@@ -32,6 +33,7 @@ export default function Home() {
       <Timeline />
       {/* <Vision /> */}
       <Mission />
+      <JoinClub/>
       <Work />
       <Register />
       <Footer />
