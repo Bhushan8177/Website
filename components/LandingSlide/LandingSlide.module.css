@@ -7,11 +7,12 @@
   flex-direction: column;
   background-color: #091e32;
   border-radius: 0 0 19% 19%;
+  position: relative;
 }
 .heading {
   font-size: 70px;
   text-align: center;
-  color: #8fc7c8;
+  color: #89baee;
   font-weight: 600;
 }
 .heading2 {
@@ -82,6 +83,6 @@
 }
 .down_arrow {
   position: absolute;
-  top: 80vh;
+  top: 67vh;
   left: 50vw;
 }
