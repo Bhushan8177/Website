@@ -31,7 +31,7 @@ const Mission = () => {
       </div>
       <div className="lg:container  lg:flex lg:flex-row">
         <div className="flex flex-col  text-[#95EBF0] rounded-xl  ">
-          <div className="lg:mb-4 rounded-2xl lg:mt-4 bg-[#0F263A] lg:p-2 lg:w-[346px] lg:h-[296px] ml-12 mr-12 mt-8 mb-4">
+          <div className="lg:mb-4 rounded-2xl lg:mt-4 bg-[#0F263A] lg:p-2 lg:w-[346px] lg:h-[296px] ml-12 mr-12 mt-8 mb-4 ">
             {/* <span className="text-2xl text-[#EDEDED] font-bold">01.</span> */}
             <div className="flex justify-center items-center">
             <Image src={strongCommunity}/>
@@ -59,7 +59,7 @@ const Mission = () => {
           </div>
         </div>
         <div className="lg:mb-4 rounded-xl  bg-[#0F263A] lg:p-2 lg:w-[369px] lg:h-[275px] lg:mt-[180px] lg:ml-0  ml-[44px] mt-6 mr-[44px] lg:mr-[100px]  ">
-            {/* <span className="text-2xl text-[#EDEDED] font-bold">01.</span> */}
+         
             <div className="flex justify-center items-center">
             <Image src={competativeProgramming}/>
             </div>

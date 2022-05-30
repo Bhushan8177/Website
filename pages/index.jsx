@@ -18,7 +18,7 @@ export default function Home() {
       
       <Landing />
       <Mission />
-       <Bhushan />
+       {/* <Bhushan /> */}
       <Work/>/
        <Register/> 
       {/* <Contact/> */}
