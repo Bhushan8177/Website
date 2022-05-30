@@ -4,7 +4,7 @@ import classes from "../components/LandingSlide/LandingSlide.module.css";
 
 const JoinClub = () => {
   return (
-    <div className="mt-16 mb-16">
+    <div className="pt-16 pb-16 bg-[#091E32]">
         <div className="font-bold lg:text-5xl pb-4 text-3xl text-center justify-center ">
             
             <h1 className='text-[#A8ECF0]'>
