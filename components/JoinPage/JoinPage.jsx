@@ -5,7 +5,9 @@ const JoinPage = () => {
   return (
     <>
       <div className={classes.join_section}>
-        <h1 className={classes.heading}>FILL THESE DETAILS TO JOIN CLUB</h1>
+        <h1 className={classes.heading}>
+          FILL THESE DETAILS TO<span className={classes.red}> JOIN CLUB</span>
+        </h1>
         <p className={classes.para}>
           Our vision for the next two years is to create a community that will
           not only assist students in obtaining better placements and assisting

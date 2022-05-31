@@ -7,18 +7,24 @@
   flex-direction: column;
   padding: 100px;
   padding-top: 80px;
+  background-color: #1e1e1e;
 }
 .heading {
-  color: #469697;
+  color: #ffffff;
   font-size: 55px;
   font-weight: 600;
 }
+.red {
+  color: #f32053;
+}
 .para {
-  color: #3a3a3a;
+  color: #ffffff;
   font-size: 20px;
   letter-spacing: 1px;
   word-spacing: 1px;
   margin-bottom: 60px;
+  width: 90%;
+  text-align: center;
 }
 .form {
   display: flex;
