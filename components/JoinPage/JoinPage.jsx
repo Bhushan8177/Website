@@ -63,13 +63,6 @@ const JoinPage = () => {
             </select>
           </div>
           <div className={classes.input_container}>
-            <label className={classes.input_label}>Codechef ID</label>
-            <input
-              className={classes.input}
-              placeholder="https://www.codechef.com/users/rahul_sharma"
-            />
-          </div>
-          <div className={classes.input_container}>
             <label className={classes.input_label}>Hackerrank ID</label>
             <input
               className={classes.input}
@@ -77,10 +70,17 @@ const JoinPage = () => {
             />
           </div>
           <div className={classes.input_container}>
-            <label className={classes.input_label}>Atcoder ID</label>
+            <label className={classes.input_label}>Codechef ID</label>
             <input
               className={classes.input}
-              placeholder="https://atcoder.jp/users/rahul_sharma"
+              placeholder="https://www.codechef.com/users/rahul_sharma"
+            />
+          </div>
+          <div className={classes.input_container}>
+            <label className={classes.input_label}>Leetcode ID</label>
+            <input
+              className={classes.input}
+              placeholder="https://leetcode.com/rahul_sharma/"
             />
           </div>
           <div className={classes.input_container}>
@@ -91,10 +91,10 @@ const JoinPage = () => {
             />
           </div>
           <div className={classes.input_container}>
-            <label className={classes.input_label}>Leetcode ID</label>
+            <label className={classes.input_label}>Atcoder ID</label>
             <input
               className={classes.input}
-              placeholder="https://leetcode.com/rahul_sharma/"
+              placeholder="https://atcoder.jp/users/rahul_sharma"
             />
           </div>
           <div className={classes.input_container}>

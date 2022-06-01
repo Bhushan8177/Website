@@ -56,11 +56,10 @@
 }
 .input {
   all: unset;
-  background-color: fff;
   border: 1px solid #d9d9d9;
   padding: 10px 20px;
-  width: 400px;
-  height: 40px;
+  width: 30vw;
+  height: 5vh;
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
@@ -70,8 +69,8 @@
   background-color: fff;
   border: 1px solid #d9d9d9;
   padding: 10px 20px;
-  width: 400px;
-  height: 200px;
+  width: 30vw;
+  height: 22vh;
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
@@ -128,3 +127,4 @@
     transform: translateY(-0.1em);
   }
 }
+

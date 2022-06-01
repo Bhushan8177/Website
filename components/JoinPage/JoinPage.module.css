@@ -59,8 +59,8 @@
   background-color: #ffffff;
   border: 1px solid #d9d9d9;
   padding: 10px 20px;
-  width: 800px;
-  height: 40px;
+  width: 40vw;
+  height: 5vh;
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
@@ -116,5 +116,13 @@
 
   to {
     transform: translateY(-0.1em);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .join_section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
