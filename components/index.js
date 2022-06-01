@@ -9,4 +9,4 @@ export { default as AboutTeam } from "./AboutTeam";
 export { default as Timeline } from "./Timeline";
 export { default as Mission } from "./Mission";
 export { default as JoinPage } from "./JoinPage/JoinPage";
-export { default as TeamPage } from "./TeamPage/TeamPage";
+export { default as TeamPage } from "./TeamPage/Teampage";
