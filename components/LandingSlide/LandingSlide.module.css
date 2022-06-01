@@ -84,5 +84,19 @@
 .down_arrow {
   position: absolute;
   top: 67vh;
-  left: 50vw;
+  left: 48vw;
+}
+@media screen and (max-width: 768px) {
+  .landing {
+    display: block;
+    height: 50vh;
+  }
+  .heading {
+    font-size: 30px;
+    margin-bottom: 60px;
+  }
+  .down_arrow {
+    top: 47vh;
+    left: 44vw;
+  }
 }

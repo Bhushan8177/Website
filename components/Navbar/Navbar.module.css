@@ -1,5 +1,6 @@
 .navbar {
   padding: 20px 40px;
+  padding-top: 0;
   background-color: #091e32;
   display: flex;
   justify-content: space-between;
@@ -34,4 +35,10 @@
   background-color: #fff;
   width: 56px;
   height: 4px;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    padding: 0 10px;
+  }
 }

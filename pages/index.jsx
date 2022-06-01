@@ -18,7 +18,7 @@ import {
   Work,
   Vision,
   JoinClub,
-  AboutTeam
+  AboutTeam,
 } from "../Components";
 
 export default function Home() {
@@ -34,11 +34,11 @@ export default function Home() {
       <Timeline />
       {/* <Vision /> */}
       <Mission />
-      <JoinClub/>
-      <AboutTeam/>
+      <JoinClub />
+      <AboutTeam />
       <Work />
       <Register />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 }
