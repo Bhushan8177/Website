@@ -18,6 +18,7 @@ import {
   Vision,
   JoinClub,
   AboutTeam,
+  Questions,
 } from "../components";
 
 export default function Home() {
@@ -36,6 +37,7 @@ export default function Home() {
       <JoinClub />
       <AboutTeam />
       {/* <Register /> */}
+      <Questions />
       <Footer />
     </>
   );
