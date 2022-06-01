@@ -14,7 +14,7 @@
   font-size: 95px;
   font-weight: 600;
   color: #ffffff;
-  width: 60%;
+  /* width: 60%; */
 }
 .red {
   color: #f32053;
@@ -40,4 +40,13 @@
   color: #fff;
   font-size: 40px;
   font-weight: 600;
+}
+@media screen and (max-width: 768px) {
+  .heading {
+    font-size: 40px;
+  }
+  .para {
+    padding: 20px;
+    font-size: 16px;
+  }
 }

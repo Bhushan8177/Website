@@ -7,6 +7,7 @@ import AskQuestion from "./assets/askQuestions.svg";
 import Image from "next/image";
 import Model from "./DemoModels";
 import classes from "./LandingSlide/LandingSlide.module.css";
+import t4 from "./assets/t4.svg";
 
 const AboutTeam = () => {
   return (
@@ -49,6 +50,7 @@ const AboutTeam = () => {
               </Suspense>
             </Canvas>
           </div> */}
+          <Image src={t4} width={1000} height={1000} />
         </div>
       </div>
       <div className="mt-10 mb-40 lg:mt-20">
@@ -61,10 +63,10 @@ const AboutTeam = () => {
         </button>
       </div>
 
-      <div className="sm:mr-0 sm:ml-0 sm:rounded-none mr-0 ml-0 rounded-none bg-[#091E32] mt-8  lg:mr-64 lg:ml-64 lg:h-[150px]  mb-10 flex flex-row justify-center items-center text-[#FFFFFF] lg:text-2xl text-md font-semibold md:mr-0 md:ml-0 md:rounded-none    ">
+      {/* <div className="sm:mr-0 sm:ml-0 sm:rounded-none mr-0 ml-0 rounded-none bg-[#091E32] mt-8  lg:mr-0 lg:ml-0 lg:h-[150px]  mb-0 flex flex-row justify-center items-center text-[#FFFFFF] lg:text-2xl text-md font-semibold md:mr-0 md:ml-0 md:rounded-none    ">
         <div className=" flex justify-center items-center lg:flex-row flex-col ">
-          <div className="lg:mr-8 pl-4 pb-2">HAVE ANY QUESTIONS ?</div>
-          <div className="">
+          <div className="lg:mr-0 pl-4 pb-2">HAVE ANY QUESTIONS ?</div>
+          <div className="ml-[400px]">
             <button className={classes.btn}>
               <span className={classes.span}>CONTACT US</span>
               <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -77,7 +79,7 @@ const AboutTeam = () => {
         <div className="flex flex-row ml-auto">
           <Image alt="xyz" src={AskQuestion} width="150" height="150" />
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

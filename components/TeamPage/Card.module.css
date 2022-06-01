@@ -82,3 +82,21 @@
   align-items: center;
   column-gap: 40px;
 }
+@media screen and (max-width: 768px) {
+  .card {
+    width: 249px;
+    height: 280px;
+    border-radius: 12px;
+    margin: 45px 20px;
+  }
+  .image_circle {
+    width: 125px;
+    height: 125px;
+    top: -67px;
+  }
+  .image_container {
+    width: 120px;
+    height: 110px;
+    top: -53px;
+  }
+}
