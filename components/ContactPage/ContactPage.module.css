@@ -128,3 +128,14 @@
   }
 }
 
+@media screen and (max-width: 768px){
+  .heading{
+    font-size: 30px;
+  }
+  .para{
+    font-size: 18px;
+  }
+  .inputheading{
+    font-size: 18px;
+  }
+}
