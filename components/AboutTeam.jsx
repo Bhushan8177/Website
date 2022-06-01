@@ -13,7 +13,7 @@ const AboutTeam = () => {
   return (
     <>
       <div className="flex flex-row">
-        <div className="flex flex-col lg:pl-16 lg:pr-16 lg:mt-[180px] justify-center">
+        <div className="flex flex-col lg:pl-16 lg:pr-16 lg:mt-[0px] justify-center">
           <div className="pl-8 pr-8">
             <h2 className="text-sm font-semibold text-[#89BAEE]  text-center lg:text-left lg:pl-0">
               About the Team

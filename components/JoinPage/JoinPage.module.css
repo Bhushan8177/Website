@@ -23,9 +23,9 @@
 }
 .para {
   color: #ffffff;
-  font-size: 25px;
-  letter-spacing: 1px;
-  word-spacing: 1px;
+  font-size: 20px;
+  /* letter-spacing: 1px;
+  word-spacing: 1px; */
   margin-top: 50px;
   margin-bottom: 90px;
   width: 90%;
@@ -56,11 +56,12 @@
 }
 .input {
   all: unset;
-  background-color: #ffffff;
+  background-color: #00000000;
   border: 1px solid #d9d9d9;
   padding: 10px 20px;
-  width: 40vw;
+  width: 70vw;
   height: 5vh;
+  color: #fff;
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
@@ -69,7 +70,7 @@
 .btn {
   font-family: inherit;
   font-size: 20px;
-  background: #8fc7c8;
+  background: #f32053;
   color: white;
   padding: 0.7em 1em;
   padding-left: 0.9em;
@@ -119,18 +120,21 @@
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
   .heading {
     padding-left: 10px;
     font-size: 32px;
   }
-  .para{
+  .para {
     font-size: 12px;
   }
- .input_label{
+  .input {
+    width: 80vw;
+  }
+  .input_label {
     font-size: 20px;
   }
-  .btn{
+  .btn {
     font-size: 18px;
   }
 }
