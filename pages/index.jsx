@@ -30,15 +30,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <LandingSlide />
+      {/* <LandingSlide /> */}
       <Timeline />
       {/* <Vision /> */}
       <Mission />
       <JoinClub/>
       <AboutTeam/>
-      <Work />
-      <Register />
-      <Footer />
+      {/* <Work /> */}
+      {/* <Register />
+      <Footer /> */}
     </>
   );
 }
