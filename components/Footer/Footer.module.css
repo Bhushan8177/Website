@@ -4,7 +4,7 @@
   align-items: center;
   flex-direction: column;
   height: 50vh;
-  background-color: #004445;
+  background-color: #183147;
   /* border-radius: 100px 100px 0 0; */
 }
 .footer {
@@ -14,6 +14,9 @@
   align-items: center;
   width: 100vw;
   height: 40vh;
+}
+.linker {
+  display: flex;
 }
 .logo {
   color: #ddf0a7;
@@ -29,6 +32,7 @@
   color: #fff;
   font-size: 32px;
   font-weight: 600;
+  margin: 0 80px;
 }
 .footer_links {
   margin-top: 30px;
@@ -59,4 +63,27 @@
   margin: auto;
   height: 2px;
   background-color: aliceblue;
+}
+@media screen and (max-width: 768px) {
+  .footer_container {
+    height: auto;
+    flex-direction: column;
+  }
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 0 30px;
+  }
+  .menu,
+  .social {
+    font-size: 16px;
+    margin: 20px;
+    white-space: nowrap;
+  }
+  .linker {
+    flex-direction: row;
+  }
+  .social_links {
+    flex-wrap: wrap;
+  }
 }
