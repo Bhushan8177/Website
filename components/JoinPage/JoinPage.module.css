@@ -120,9 +120,17 @@
 }
 
 @media screen and (max-width: 768px){
-  .join_section {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  .heading {
+    padding-left: 10px;
+    font-size: 32px;
+  }
+  .para{
+    font-size: 12px;
+  }
+ .input_label{
+    font-size: 20px;
+  }
+  .btn{
+    font-size: 18px;
   }
 }
