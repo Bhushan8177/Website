@@ -14,7 +14,13 @@ const Footer = () => {
       <div className={classes.footer_container}>
         <div className={classes.footer}>
           <div className={classes.logo}>
-            <Image src={logo} width={150} height={150} layout="fixed" />
+            <Image
+              alt="xyz"
+              src={logo}
+              width={150}
+              height={150}
+              layout="fixed"
+            />
           </div>
           <div className={classes.linker}>
             <div className={classes.menu}>

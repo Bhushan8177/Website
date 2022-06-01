@@ -18,7 +18,7 @@ import {
   Vision,
   JoinClub,
   AboutTeam,
-} from "../Components";
+} from "../components";
 
 export default function Home() {
   return (

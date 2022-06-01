@@ -12,6 +12,7 @@ const Card = ({ m }) => {
         <div className={classes.image_circle}> </div>
         <div className={classes.image_container}>
           <Image
+            alt="xyz"
             className={classes.image}
             src={m.photo}
             width={210}
@@ -27,17 +28,17 @@ const Card = ({ m }) => {
           <ul className={classes.social_links}>
             <li className={classes.link_container}>
               <a href={m.linkedin} className={classes.link}>
-                <Image src={linkedin} width={40} height={40} />
+                <Image alt="xyz" src={linkedin} width={40} height={40} />
               </a>
             </li>
             <li className={classes.link_container}>
               <a href={m.instagram} className={classes.link}>
-                <Image src={instagram} width={40} height={40} />
+                <Image alt="xyz" src={instagram} width={40} height={40} />
               </a>
             </li>
             <li className={classes.link_container}>
               <a href={m.github} className={classes.link}>
-                <Image src={github} width={40} height={40} />
+                <Image alt="xyz" src={github} width={40} height={40} />
               </a>
             </li>
           </ul>

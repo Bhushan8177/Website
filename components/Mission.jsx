@@ -32,7 +32,7 @@ const Mission = () => {
           <div className="lg:mb-4 rounded-2xl lg:mt-4 bg-[#0F263A] lg:p-2 lg:w-[346px] lg:h-[296px] ml-12 mr-12 mt-8 mb-4 ">
             {/* <span className="text-2xl text-[#EDEDED] font-bold">01.</span> */}
             <div className="flex justify-center items-center">
-              <Image src={strongCommunity} />
+              <Image alt="xyz" src={strongCommunity} />
             </div>
             <div className="text-2xl font-semibold text-center text-[#95EBF0]">
               Strong Community
@@ -48,7 +48,7 @@ const Mission = () => {
           <div className="lg:mb-4 rounded-xl lg:mt-8 bg-[#0F263A] lg:p-2 ml-12 mr-12 mt-4 mb-3">
             {/* <span className="text-2xl text-[#EDEDED] font-bold">01.</span> */}
             <div className="flex justify-center items-center">
-              <Image src={mentoring} />
+              <Image alt="xyz" src={mentoring} />
             </div>
             <div className="text-2xl font-semibold text-center text-[#95EBF0]">
               Mentorship
@@ -64,7 +64,7 @@ const Mission = () => {
         </div>
         <div className="lg:mb-4 rounded-xl  bg-[#0F263A] lg:p-2 lg:w-auto lg:h-[50%] lg:pb-0 lg:mt-[180px] lg:ml-0  ml-[44px] mt-6 mr-[44px] lg:mr-[100px]  ">
           <div className="flex lg:pl-8 lg:pr-8 justify-center items-center">
-            <Image src={competativeProgramming} />
+            <Image alt="xyz" src={competativeProgramming} />
           </div>
           <div className="text-2xl lg:pl-8 lg:pr-8 font-semibold text-center text-[#95EBF0]">
             Competitive Programming

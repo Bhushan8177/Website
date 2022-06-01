@@ -6,7 +6,7 @@ import { OrbitControls } from "@react-three/drei";
 import AskQuestion from "./assets/askQuestions.svg";
 import Image from "next/image";
 import Model from "./DemoModels";
-import classes from "../components/LandingSlide/LandingSlide.module.css";
+import classes from "./LandingSlide/LandingSlide.module.css";
 
 const AboutTeam = () => {
   return (
@@ -75,7 +75,7 @@ const AboutTeam = () => {
           </div>
         </div>
         <div className="flex flex-row ml-auto">
-          <Image src={AskQuestion} width="150" height="150" />
+          <Image alt="xyz" src={AskQuestion} width="150" height="150" />
         </div>
       </div>
     </>

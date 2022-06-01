@@ -14,7 +14,10 @@ import logo from "./assets/CPMCLogo.svg";
 const Timeline = () => {
   return (
     <>
-      <div className="w-[100vw] flex flex-col bg-[#0F263A] mt-[200px]  ">
+      <div
+        id="timeline"
+        className="w-[100vw] flex flex-col bg-[#0F263A] mt-[200px]  "
+      >
         <div className="flex flex-row mb-8 justify-center">
           <div className=" w-[150px] h-[150px] lg:w-[350px] lg:h-[300px] flex md:mr-auto lg:mr-auto ml-auto cursor-pointer">
             <Canvas className="">
