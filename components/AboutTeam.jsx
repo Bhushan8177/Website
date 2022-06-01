@@ -5,13 +5,14 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import AskQuestion from "./assets/askQuestions.svg";
 import Image from "next/image";
+import Model from "./DemoModels";
 import classes from "../components/LandingSlide/LandingSlide.module.css";
 
 const AboutTeam = () => {
   return (
     <>
       <div className="flex flex-row">
-        <div className="flex flex-col lg:pl-16 lg:pr-16 lg:mt-[180px]">
+        <div className="flex flex-col lg:pl-16 lg:pr-16 lg:mt-[180px] justify-center">
           <div className="pl-8 pr-8">
             <h2 className="text-sm font-semibold text-[#89BAEE]  text-center lg:text-left lg:pl-0">
               About the Team
@@ -21,7 +22,7 @@ const AboutTeam = () => {
               TEAM
             </h1>
           </div>
-          <p className="lg:text-lg text-sm lg:font-semibold font-[400] text-[#FFFFFF] pl-8 pr-8 lg:text-left ">
+          <p className="lg:text-lg text-sm lg:font-semibold font-[400] text-[#FFFFFF] pl-8 pr-8 lg:text-left text-center">
             Our primary goal is to promote CP in our college community and help
             students enhance their problem-solving abilities. Our primary goal
             is to promote CP in our college community and help students enhance
@@ -29,13 +30,22 @@ const AboutTeam = () => {
           </p>
         </div>
         <div className="flex flex-col lg:pl-16 lg:pr-16 lg:mt-[180px]">
-          <div className=" w-[150px] h-[150px] lg:w-[300px] lg:h-[300px] flex md:mr-auto lg:mr-auto ml-auto cursor-pointer">
+          <div className=" w-[150px] h-[150px] lg:w-[500px] lg:h-[500px] flex md:mr-auto lg:mr-auto ml-auto cursor-pointer">
             <Canvas className="">
               <OrbitControls enableDamping={true} enableZoom={false} />
-              <ambientLight intensity={0.5} />
-              <directionalLight position={[-2, 5, 2]} intensity={2} />
+              <ambientLight intensity={0.01} />
+              <directionalLight
+                position={[-2, 5, 2]}
+                intensity={1}
+                color="#A8ECF0"
+              />
+              <directionalLight
+                position={[4, 5, 2]}
+                intensity={1}
+                color="#A8ECF0"
+              />
               <Suspense fallback={null}>
-                <Box />
+                <Model />
               </Suspense>
             </Canvas>
           </div>
