@@ -14,8 +14,7 @@ import {
   Timeline,
   Mission,
   Footer,
-  Register,
-  Work,
+  // Register,
   Vision,
   JoinClub,
   AboutTeam,
@@ -36,9 +35,8 @@ export default function Home() {
       <Mission />
       <JoinClub />
       <AboutTeam />
-      <Work />
-      <Register />
-      {/* <Footer /> */}
+      {/* <Register /> */}
+      <Footer />
     </>
   );
 }
