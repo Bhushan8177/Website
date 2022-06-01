@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "../components/LandingSlide/LandingSlide.module.css";
+import classes from "./LandingSlide/LandingSlide.module.css";
 
 const JoinClub = () => {
   return (
