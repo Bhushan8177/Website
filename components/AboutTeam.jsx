@@ -75,7 +75,7 @@ const AboutTeam = () => {
           </div>
         </div>
         <div className="flex flex-row ml-auto">
-          <Image src={AskQuestion} width="150" height="150" />
+          <Image alt="xyz" src={AskQuestion} width="150" height="150" />
         </div>
       </div>
     </>

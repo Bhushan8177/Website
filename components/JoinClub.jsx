@@ -12,9 +12,9 @@ const JoinClub = () => {
         </h1>
       </div>
       <div className="text-sm pb-[1.5rem]  flex flex-row items-center justify-center break-words font-normal text-center text-[#FFFFFF]  pl-8 pr-8  lg:h-[64px]">
-        Our club seeks to increase students' problem-solving skills as well as
-        their cp in order to improve their coding abilities. The following three
-        steps describe how our Club operates.
+        Our club seeks to increase students&apos; problem-solving skills as well
+        as their cp in order to improve their coding abilities. The following
+        three steps describe how our Club operates.
       </div>
       <button className={classes.btn}>
         <span className={classes.span}>JOIN NOW</span>

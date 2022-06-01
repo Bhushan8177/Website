@@ -7,14 +7,18 @@ import logo1 from "../assets/CPMCLogo.svg";
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
+  const disableScroll = () => {
+    document.body.classList.toggle("stop-scrolling");
+  };
   const navHandler = () => {
     setActive(!isActive);
+    disableScroll();
   };
   return (
     <>
       <div className={classes.navbar}>
         <div className="img_container">
-          <Image src={logo} width={150} height={70} />
+          <Image alt="xyz" src={logo} width={150} height={70} />
         </div>
 
         <div className={classes.hamburger} onClick={navHandler}>
