@@ -5,6 +5,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import AskQuestion from "./assets/askQuestions.svg";
 import Image from "next/image";
+import Link from "next/link";
 import Model from "./DemoModels";
 import classes from "./LandingSlide/LandingSlide.module.css";
 import t4 from "./assets/t4.svg";
@@ -54,13 +55,15 @@ const AboutTeam = () => {
         </div>
       </div>
       <div className="mt-10 mb-40 lg:mt-20">
-        <button className={classes.btn}>
-          <span className={classes.span}>OUR TEAM</span>
-          <svg viewBox="0 0 13 10" height="10px" width="15px">
-            <path d="M1,5 L11,5"></path>
-            <polyline points="8 1 12 5 8 9"></polyline>
-          </svg>
-        </button>
+        <Link href="team">
+          <button className={classes.btn}>
+            <span className={classes.span}>OUR TEAM</span>
+            <svg viewBox="0 0 13 10" height="10px" width="15px">
+              <path d="M1,5 L11,5"></path>
+              <polyline points="8 1 12 5 8 9"></polyline>
+            </svg>
+          </button>
+        </Link>
       </div>
 
       {/* <div className="sm:mr-0 sm:ml-0 sm:rounded-none mr-0 ml-0 rounded-none bg-[#091E32] mt-8  lg:mr-0 lg:ml-0 lg:h-[150px]  mb-0 flex flex-row justify-center items-center text-[#FFFFFF] lg:text-2xl text-md font-semibold md:mr-0 md:ml-0 md:rounded-none    ">
