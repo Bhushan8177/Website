@@ -1,7 +1,7 @@
 .nav_links {
   background-color: #091e32;
   width: 100vw;
-  height: 75vh;
+  height: calc(100vh - 20px);
   display: flex;
   justify-content: center;
   align-items: center;

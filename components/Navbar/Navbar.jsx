@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <div className={classes.navbar}>
         <div className="img_container">
-          <Image src={logo} width={150} height={150} />
+          <Image src={logo} width={150} height={70} />
         </div>
 
         <div className={classes.hamburger} onClick={navHandler}>
