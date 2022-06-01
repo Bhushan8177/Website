@@ -1,7 +1,7 @@
 .nav_links {
   background-color: #091e32;
   width: 100vw;
-  height: 90vh;
+  height: 75vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -50,4 +50,16 @@
 
 .link:hover:before {
   transform: scale(1);
+}
+@media screen and (max-width: 768px) {
+  .nav_links {
+    height: 80vh;
+    justify-content: flex-start;
+  }
+  .link_container {
+    margin: 10px;
+  }
+  .link {
+    font-size: 50px;
+  }
 }

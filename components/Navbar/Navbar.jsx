@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import NavList from "./NavList";
 import classes from "./Navbar.module.css";
+import Image from "next/image";
+import logo from "../assets/CPMC.svg";
+import logo1 from "../assets/CPMCLogo.svg";
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
@@ -10,7 +13,9 @@ const Navbar = () => {
   return (
     <>
       <div className={classes.navbar}>
-        <h1 className={classes.logo}>CPMC</h1>
+        <div className="img_container">
+          <Image src={logo} width={150} height={150} />
+        </div>
 
         <div className={classes.hamburger} onClick={navHandler}>
           <div className={classes.line1}></div>
