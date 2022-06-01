@@ -1,5 +1,5 @@
 import React from "react";
-import classes from "./Teampage.module.css";
+import classes from "./TeamPage.module.css";
 import Card from "./Card";
 import aj from "../assets/aj.jpeg";
 
