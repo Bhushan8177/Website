@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
       <div className={classes.contact_section}>
-        <h1 className={classes.heading}>CONTACT US</h1>
+        <h1 className={classes.heading}>CONTACT <span className={classes.red}>US</span></h1>
         <p className={classes.para}>
           Our vision for the next two years is to create a community that will
           not only assist students in obtaining better <br /> placements and

@@ -42,6 +42,9 @@
 /* .input_container{
   margin-top: 20px;
 } */
+.red {
+  color: #f32053;
+}
 .form {
   display: flex;
   justify-content: center;

@@ -1,5 +1,7 @@
 import React from "react";
 import classes from "./LandingSlide/LandingSlide.module.css";
+import Link from "next/link";
+
 
 const JoinClub = () => {
   return (
@@ -16,6 +18,7 @@ const JoinClub = () => {
         as their cp in order to improve their coding abilities. The following
         three steps describe how our Club operates.
       </div>
+      <Link href="/joinus">
       <button className={classes.btn}>
         <span className={classes.span}>JOIN NOW</span>
         <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -23,6 +26,7 @@ const JoinClub = () => {
           <polyline points="8 1 12 5 8 9"></polyline>
         </svg>
       </button>
+      </Link>
     </div>
   );
 };
