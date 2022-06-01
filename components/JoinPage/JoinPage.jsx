@@ -1,12 +1,13 @@
 import React from "react";
 import classes from "./JoinPage.module.css";
+import Link from "next/link"
 
 const JoinPage = () => {
   return (
     <>
       <div className={classes.join_section}>
         <h1 className={classes.heading}>
-          FILL THESE DETAILS TO<span className={classes.red}> JOIN CLUB</span>
+          FILL THESE DETAILS TO <br /> <span className={classes.red}> JOIN CLUB</span>
         </h1>
         <p className={classes.para}>
           Our vision for the next two years is to create a community that will
