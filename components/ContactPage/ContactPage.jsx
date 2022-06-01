@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <>
       <div className={classes.contact_section}>
-        <h1 className={classes.heading}>HAVE SOME QUESTIONS ?</h1>
+        <h1 className={classes.heading}>CONTACT US</h1>
         <p className={classes.para}>
           Our vision for the next two years is to create a community that will
           not only assist students in obtaining better <br /> placements and
@@ -16,17 +16,20 @@ const Contact = () => {
           achieve future milestones.{" "}
         </p>
         <div className={classes.contact}>
-          <div className={classes.image}>
+          {/* <div className={classes.image}>
             <Image src={contact} alt="contact" width={700} height={700} />
-          </div>
+          </div> */}
           <div className={classes.form}>
             <div className={classes.input_container}>
+              <h1 className={classes.inputheading}>Name</h1>
               <input className={classes.input} placeholder="Full Name" />
             </div>
             <div className={classes.input_container}>
+              <h1 className={classes.inputheading}>Email address</h1>
               <input className={classes.input} placeholder="Email" />
             </div>
             <div className={classes.input_container}>
+              <h1 className={classes.inputheading}>Message</h1>
               <textarea
                 className={classes.textarea}
                 placeholder="Type Your Message Here..!"
