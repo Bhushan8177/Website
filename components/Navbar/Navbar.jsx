@@ -2,26 +2,34 @@ import React, { useState } from "react";
 import NavList from "./NavList";
 import classes from "./Navbar.module.css";
 import Image from "next/image";
+import Link from "next/link";
 import logo from "../assets/CPMC.svg";
 import logo1 from "../assets/CPMCLogo.svg";
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
-  const disableScroll = () => {
-    document.body.classList.toggle("stop-scrolling");
-  };
+
+  // const disableScroll = () => {
+  //   document.body.classList.toggle("stop-scrolling");
+  // };
+
   const navHandler = () => {
     setActive(!isActive);
-    disableScroll();
+    // disableScroll();
   };
   return (
     <>
       <div className={classes.navbar}>
-        <div className="img_container">
-          <Image alt="xyz" src={logo} width={150} height={70} />
-        </div>
+        <Link href="/">
+          <div className={classes.img_container}>
+            <Image alt="xyz" src={logo} width={150} height={70} />
+          </div>
+        </Link>
 
-        <div className={classes.hamburger} onClick={navHandler}>
+        <div
+          className={!isActive ? classes.hamburger : classes.hamburger_active}
+          onClick={navHandler}
+        >
           <div className={classes.line1}></div>
           <div className={classes.line2}></div>
           <div className={classes.line3}></div>

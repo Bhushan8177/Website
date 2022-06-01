@@ -35,7 +35,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  display: block;
+  display: inline-block;
   border-radius: 50px;
   background: #b1dae7;
   width: 45px;
@@ -49,7 +49,7 @@
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 0.05em;
-  color: #ffffff;
+  color: #fff;
 }
 
 .btn svg {
@@ -59,7 +59,7 @@
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
-  stroke: #ffe600;
+  stroke: #fff;
   stroke-width: 2;
   transform: translateX(-5px);
   transition: all 0.3s ease;
@@ -67,15 +67,15 @@
 
 .btn:hover:before {
   width: 100%;
-  background: #e4f902;
+  background: #f32053;
 }
 .btn:hover span {
-  color: #626262;
+  color: #fff;
 }
 
 .btn:hover svg {
   transform: translateX(0);
-  stroke: #626262;
+  stroke: #fff;
 }
 
 .btn:active {
@@ -94,14 +94,18 @@
 @media screen and (max-width: 768px) {
   .landing {
     display: block;
-    height: 50vh;
+    height: 70vh;
   }
   .heading {
     font-size: 30px;
     margin-bottom: 60px;
+    padding-top: 100px;
+  }
+  .btn {
+    margin-top: 100px;
   }
   .down_arrow {
-    top: 47vh;
+    top: 67vh;
     left: 44vw;
   }
 }

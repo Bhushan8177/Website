@@ -22,7 +22,7 @@ const AboutTeam = () => {
               TEAM
             </h1>
           </div>
-          <p className="lg:text-lg text-sm lg:font-semibold font-[400] text-[#FFFFFF] pl-8 pr-8 lg:text-left text-center">
+          <p className="lg:text-lg  text-sm lg:font-semibold font-[400] text-[#FFFFFF] pl-8 pr-8 lg:text-center text-left">
             Our primary goal is to promote CP in our college community and help
             students enhance their problem-solving abilities. Our primary goal
             is to promote CP in our college community and help students enhance
@@ -30,7 +30,7 @@ const AboutTeam = () => {
           </p>
         </div>
         <div className="flex flex-col lg:pl-16 lg:pr-16 lg:mt-[180px]">
-          <div className=" w-[150px] h-[150px] lg:w-[500px] lg:h-[500px] flex md:mr-auto lg:mr-auto ml-auto cursor-pointer">
+          {/* <div className=" w-[150px] h-[150px] lg:w-[500px] lg:h-[500px] flex md:mr-auto lg:mr-auto ml-auto cursor-pointer">
             <Canvas className="">
               <OrbitControls enableDamping={true} enableZoom={false} />
               <ambientLight intensity={0.01} />
@@ -48,10 +48,10 @@ const AboutTeam = () => {
                 <Model />
               </Suspense>
             </Canvas>
-          </div>
+          </div> */}
         </div>
       </div>
-      <div className="mt-20 lg:mt-0">
+      <div className="mt-10 mb-40 lg:mt-20">
         <button className={classes.btn}>
           <span className={classes.span}>OUR TEAM</span>
           <svg viewBox="0 0 13 10" height="10px" width="15px">
@@ -61,8 +61,8 @@ const AboutTeam = () => {
         </button>
       </div>
 
-      <div className="sm:mr-0 sm:ml-0 sm:rounded-none mr-0 ml-0 rounded-none bg-[#091E32] mt-8  lg:mr-64 lg:ml-64 lg:h-[150px]  mb-10 flex flex-row items-center text-[#FFFFFF] lg:text-2xl text-md font-semibold md:mr-0 md:ml-0 md:rounded-none    ">
-        <div className="flex lg:flex-row flex-col lg:ml-auto">
+      <div className="sm:mr-0 sm:ml-0 sm:rounded-none mr-0 ml-0 rounded-none bg-[#091E32] mt-8  lg:mr-64 lg:ml-64 lg:h-[150px]  mb-10 flex flex-row justify-center items-center text-[#FFFFFF] lg:text-2xl text-md font-semibold md:mr-0 md:ml-0 md:rounded-none    ">
+        <div className=" flex justify-center items-center lg:flex-row flex-col ">
           <div className="lg:mr-8 pl-4 pb-2">HAVE ANY QUESTIONS ?</div>
           <div className="">
             <button className={classes.btn}>
