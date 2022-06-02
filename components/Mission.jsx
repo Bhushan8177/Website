@@ -44,7 +44,6 @@ const Mission = () => {
         </div>
         <div className="flex flex-col  text-[#95EBF0] rounded-xl ">
           <div className="lg:mb-4 rounded-2xl lg:mt-4 bg-[#0F263A] lg:pr-4 lg:w-[346px] lg:h-[296px] ml-0 mr-4  mt-8 mb-4 ">
-            {/* <span className="text-2xl text-[#EDEDED] font-bold">01.</span> */}
             <div className="flex justify-center items-center">
               <Image alt="xyz" src={strongCommunity} />
             </div>
@@ -60,7 +59,6 @@ const Mission = () => {
             </h2>
           </div>
           <div className="lg:mb-4 rounded-xl lg:mt-8 bg-[#0F263A] lg:p-2 ml-12 mr-12 mt-4 mb-3">
-            {/* <span className="text-2xl text-[#EDEDED] font-bold">01.</span> */}
             <div className="flex justify-center items-center">
               <Image alt="xyz" src={mentoring} />
             </div>

@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Paytone+One&display=swap");
 
 .contact_section {
-  /* background-color: #1e1e1e; */
   width: 100vw;
   height: auto;
   display: flex;
@@ -42,9 +41,7 @@
   align-items: center;
   justify-content: center;
 }
-/* .input_container{
-  margin-top: 20px;
-} */
+
 .red {
   color: #f32053;
 }
@@ -54,7 +51,6 @@
   align-items: center;
   flex-direction: column;
   margin-top: 90px;
-  /* margin-right: 200px; */
   gap: 50px;
   padding: 100px;
   padding-top: 0;

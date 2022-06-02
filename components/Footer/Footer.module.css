@@ -5,7 +5,6 @@
   flex-direction: column;
   height: 50vh;
   background-color: #183147;
-  /* border-radius: 100px 100px 0 0; */
 }
 .footer {
   padding: 0 100px;
@@ -15,49 +14,51 @@
   width: 100vw;
   height: 40vh;
 }
-.tagline{
+.tagline {
   color: white;
   font-weight: 500;
   font-size: 20px;
 }
-.link_container{
-    color: rgb(200, 199, 199);
+.link_container {
+  color: rgb(200, 199, 199);
 }
-.link_container:hover{
-    color: #FF2863;
+.link_container:hover {
+  color: #ff2863;
 }
-.socialmedia{
-    justify-items: center;
-    align-items: center;
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.socialmedia {
+  justify-items: center;
+  align-items: center;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-.linkedin, .instagram{
-    margin: 10px;
-    border-radius: 42px;
-    background-color: #091E32;
-    font-size: 19px;
-    width: 12vw;
-    color: white;
-    cursor: pointer;
+.linkedin,
+.instagram {
+  margin: 10px;
+  border-radius: 42px;
+  background-color: #091e32;
+  font-size: 19px;
+  width: 12vw;
+  color: white;
+  cursor: pointer;
 }
-.logotagline{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.logotagline {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.innerlink, .innerinsta{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
-    align-items: center;
+.innerlink,
+.innerinsta {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: center;
 }
-.icon{
-    border-radius: 50px;
-    margin: 0px 15px;
-    margin-top: 9px;
+.icon {
+  border-radius: 50px;
+  margin: 0px 15px;
+  margin-top: 9px;
 }
 .logo {
   color: #ddf0a7;
@@ -71,9 +72,8 @@
   font-size: 32px;
   font-weight: 600;
 }
-.menu
-{
-    align-items: center;
+.menu {
+  align-items: center;
 }
 .footer_links {
   margin-top: 10px;
@@ -102,7 +102,7 @@
   height: 2px;
   background-color: aliceblue;
 }
-@media(max-width: 768px) {
+@media (max-width: 768px) {
   .footer_container {
     height: auto;
     flex-direction: column;
@@ -124,12 +124,12 @@
   .social_links {
     flex-wrap: wrap;
   }
-  .tagline{
+  .tagline {
     margin-bottom: 1rem;
   }
-  .linkedin, .instagram{
-      width: 50vw;
-      padding: 5px;
+  .linkedin,
+  .instagram {
+    width: 50vw;
+    padding: 5px;
   }
-
 }

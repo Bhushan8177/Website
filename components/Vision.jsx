@@ -15,14 +15,12 @@ const Vision = () => {
           <div className="">
             <Image src={a} alt="down" width={"500px"} height={"500px"} />
           </div>
-          {/* <div className=" border-dotted border-4 h-[500px]  border-[#8FC7C8]"></div> */}
           <div className="text-[#469697] font-Paytone font-[800] leading-[67px] text-[48px]">
             Improve <br /> problem <br />
             solving skills
           </div>
         </div>
         <div className="flex items-center justify-between">
-          {/* <div className=" border-dotted border-4 h-[500px]  border-[#8FC7C8]"></div> */}
           <div className="text-[#469697] font-Paytone font-[800] leading-[67px] text-[48px]">
             Group disccusion
             <br /> on Competitive <br />
@@ -36,7 +34,6 @@ const Vision = () => {
           <div className="">
             <Image src={c} alt="down" width={"500px"} height={"500px"} />
           </div>
-          {/* <div className=" border-dotted border-4 h-[500px]  border-[#8FC7C8]"></div> */}
           <div className="text-[#469697] font-Paytone font-[800] leading-[67px] text-[48px] ">
             Helping each other
             <br /> to learn new <br />

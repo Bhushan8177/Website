@@ -1,4 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
 import classes from "./ClubOperations.module.css";
 
 import React from "react";
