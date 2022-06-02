@@ -25,7 +25,7 @@
   </p>
 </div>
 
-## About the Project 🚀
+## About the Club 🚀
 The Competitive Programmers and Mentorship Club
 (C.P.M.C.) is a project started by D.Y.P.C.O.E. students.
 This club aims to strengthen students' problem-solving skills
@@ -45,7 +45,7 @@ uncharted territory.
 
 ## Tech Stack 🗃
 
- <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)">  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">  <img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white">
+ <img src="https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white">  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">  <img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white">
  
 ## Glimpse ✨
 
