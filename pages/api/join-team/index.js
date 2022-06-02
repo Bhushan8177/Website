@@ -25,7 +25,7 @@ const handler = async (req, res) => {
 		} = req.body;
 
 		const std = await Student.findOne({ email });
-		console.log(std);
+
 		if (std) {
 			return res.status(401).json({ message: "Student already exists" });
 		}
@@ -54,6 +54,7 @@ const handler = async (req, res) => {
 			.json({ message: "Submitted Successfully", student: finalStudent });
 	} catch (error) {
 		console.log(error);
+		res.status(500).json({ message: "Internal server error" });
 	}
 };
 
