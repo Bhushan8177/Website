@@ -9,7 +9,7 @@ import MenteeFormStep2 from "./assets/step2MenteeRegistration.svg";
 import MenteeFormStep3 from "./assets/step3MenteeRegistration.svg";
 import ques_mark from "./assets/ques_mark.png";
 
-const Register = () => {
+const Registers = () => {
   return (
     <>
       <div className="lg:pl-32 lg:pr-32 pt-20">
@@ -22,7 +22,7 @@ const Register = () => {
               <Image alt="xyz" src={MentorForm} width="410px" height="256px" />
             </div>
             <div className="p-2 pt-4 lg:w-[412px]  text-white break-words">
-              Fill out the form :{" "}
+              Fill out the form :
               <Link href="/">
                 <h1 className="text-blue-300"> Coming Soon</h1>
               </Link>
@@ -72,7 +72,7 @@ const Register = () => {
               />
             </div>
             <div className="p-2 text-white pt-4  lg:w-[412px] break-words">
-              Fill out the form :{" "}
+              Fill out the form :
               <Link href="/">
                 <h1 className="text-blue-300"> Coming Soon</h1>
               </Link>
@@ -112,4 +112,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default Registers;

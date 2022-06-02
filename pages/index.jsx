@@ -5,7 +5,7 @@ import {
   Timeline,
   Mission,
   Footer,
-  Register,
+  Registers,
   JoinClub,
   AboutTeam,
   Questions,
@@ -26,7 +26,7 @@ export default function Home() {
       <Mission />
       <ClubOperations />
       <JoinClub />
-      <Register />
+      <Registers />
       <AboutTeam />
       <Questions />
       <Footer />

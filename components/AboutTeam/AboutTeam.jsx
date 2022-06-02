@@ -24,7 +24,7 @@ const AboutTeam = () => {
             their
           </p>
           <div className={styles.teambtn}>
-            <Link href="team">
+            <Link href="/team">
               <button className={classes.btn}>
                 <span className={classes.span}>OUR TEAM</span>
                 <svg viewBox="0 0 13 10" height="10px" width="15px">
