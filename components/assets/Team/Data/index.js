@@ -14,16 +14,16 @@ import adi from "../adi.jpeg";
 
 export const DATA = [
   {
-    name: "Palash Rambhia",
-    position: "Vice-Captain",
-    class: "(SE-IT)",
-    photo: palash,
-  },
-  {
     name: "Aryan Jangid",
     position: "Captain",
     class: "(SE-AI&DS)",
     photo: aj,
+  },
+  {
+    name: "Palash Rambhia",
+    position: "Vice-Captain",
+    class: "(SE-IT)",
+    photo: palash,
   },
   {
     name: "Sarthak Pawar",
