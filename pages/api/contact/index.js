@@ -18,7 +18,7 @@ const handler = async (req, res) => {
 			`Hello, my name is ${name}. And my email is ${email}. ` + message;
 
 		const msg = {
-			to: "sarthakrajesh777@gmail.com",
+			to: "bhosalepranav36@gmail.com",
 			from: "nishantbhosale244@gmail.com",
 			subject: "Contact With CPMC Club",
 			text: customMessage,

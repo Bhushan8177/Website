@@ -31,32 +31,26 @@ const StudentSchema = new Schema({
 	},
 	hackerRankId: {
 		type: String,
-		unique: true,
 		default: "",
 	},
 	leetCodeId: {
 		type: String,
-		unique: true,
 		default: "",
 	},
 	codeChefId: {
 		type: String,
-		unique: true,
 		default: "",
 	},
 	codeForcesId: {
 		type: String,
-		unique: true,
 		default: "",
 	},
 	atCoderId: {
 		type: String,
-		unique: true,
 		default: "",
 	},
 	hackerEarthId: {
 		type: String,
-		unique: true,
 		default: "",
 	},
 });

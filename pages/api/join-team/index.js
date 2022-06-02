@@ -24,6 +24,19 @@ const handler = async (req, res) => {
 			atCoderId,
 		} = req.body;
 
+		if (
+			!firstName ||
+			!email ||
+			!phoneNumber ||
+			!academicYear ||
+			!branch ||
+			!division
+		) {
+			return res
+				.status(400)
+				.json({ message: "Please enter valid credentials" });
+		}
+
 		const std = await Student.findOne({ email });
 
 		if (std) {
