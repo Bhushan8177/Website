@@ -17,9 +17,6 @@ const Contact = () => {
           out the form below!
         </p>
         <div className={classes.contact}>
-          {/* <div className={classes.image}>
-            <Image src={contact} alt="contact" width={700} height={700} />
-          </div> */}
           <div className={classes.form}>
             <div className={classes.input_container}>
               <h1 className={classes.inputheading}>Name*</h1>
