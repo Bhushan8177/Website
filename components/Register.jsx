@@ -23,8 +23,8 @@ const Register = () => {
             </div>
             <div className="p-2 pt-4 lg:w-[412px]  text-white break-words">
               Fill out the form :{" "}
-              <Link href="/" className="text-blue-300">
-                Coming Soon
+              <Link href="/">
+                <h1 className="text-blue-300"> Coming Soon</h1>
               </Link>
             </div>
           </div>
@@ -73,11 +73,8 @@ const Register = () => {
             </div>
             <div className="p-2 text-white pt-4  lg:w-[412px] break-words">
               Fill out the form :{" "}
-              <Link
-                href="https://docs.google.com/forms/d/e/1FAIpQLSetPmIxGa04RvRXWA22MhW9AlmYWGxhVG8eNbOLKXlWyHHpiQ/viewform?usp=sf_link"
-                className="text-blue-300"
-              >
-                Coming Soon
+              <Link href="/">
+                <h1 className="text-blue-300"> Coming Soon</h1>
               </Link>
             </div>
           </div>
