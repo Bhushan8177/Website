@@ -4,8 +4,6 @@ import Image from "next/image";
 import t1 from "../assets/t1.svg";
 import t2 from "../assets/t2.svg";
 import t3 from "../assets/t3.svg";
-// import t4 from "./assets/t4.svg";
-// import logo from "./assets/CPMCLogo.svg";
 
 const Timeline = () => {
   return (

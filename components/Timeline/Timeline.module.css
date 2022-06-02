@@ -7,7 +7,6 @@
 .container {
   display: flex;
   margin-bottom: 100px;
-  /* height:200px; */
   justify-content: center;
   align-items: center;
 }
@@ -18,7 +17,6 @@
 }
 .imgdiv {
   width: 50%;
-  /* height:100px; */
 }
 
 .contentdiv {
@@ -28,7 +26,6 @@
 
 .number {
   color: white;
-  /* font-weight: bold; */
   font-size: 3rem;
   font-family: "Passion One", cursive;
 }
@@ -51,7 +48,6 @@
   .container {
     display: flex;
     margin-bottom: 100px;
-    /* height:200px; */
     justify-content: center;
     align-items: center;
   }
@@ -62,7 +58,6 @@
   }
   .imgdiv {
     width: 60%;
-    /* height:100px; */
   }
 
   .contentdiv {
@@ -72,7 +67,6 @@
 
   .number {
     color: white;
-    /* font-weight: bold; */
     font-size: 2rem;
     font-family: "Passion One", cursive;
   }
@@ -97,7 +91,6 @@
   .container {
     display: flex;
     margin-bottom: 70px;
-    /* height:200px; */
     justify-content: center;
     align-items: center;
   }
@@ -108,7 +101,6 @@
   }
   .imgdiv {
     width: 50%;
-    /* height:100px; */
   }
 
   .contentdiv {
@@ -118,7 +110,6 @@
 
   .number {
     color: white;
-    /* font-weight: bold; */
     font-size: 1.8rem;
     font-family: "Passion One", cursive;
   }
