@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Paytone+One&display=swap");
+
 .team_section {
   width: 100vw;
   height: auto;
@@ -5,7 +7,7 @@
   justify-content: flex-start;
   align-items: center;
   flex-direction: column;
-  /* padding: 70px; */
+  padding: 70px;
   padding-top: 20px;
   background-color: #1e1e1e;
 }
@@ -15,6 +17,8 @@
   font-weight: 600;
   color: #ffffff;
   /* width: 60%; */
+  font-family: "Open Sans", sans-serif;
+  font-family: "Paytone One", sans-serif;
 }
 .red {
   color: #f32053;
@@ -25,6 +29,7 @@
   font-family: sans-serif;
   margin-bottom: 95px;
   padding: 0 100px;
+  font-family: "Open Sans", sans-serif;
 }
 .team {
   /* margin: 0 50px; */
@@ -32,23 +37,35 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  font-family: "Open Sans", sans-serif;
+
   /* gap: 80px; */
 }
 .heading2 {
   margin: 50px 0 100px 0;
   color: #fff;
   font-size: 96px;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Paytone One", sans-serif;
   font-weight: 600;
 }
+@media screen and (max-width: 1000px) {
+  .heading,
+  .heading2 {
+    font-size: 40px;
+  }
+}
 @media screen and (max-width: 768px) {
-  .heading {
+  .team_section {
+    padding: 30px;
+  }
+  .heading,
+  .heading2 {
     font-size: 40px;
   }
   .para {
     padding: 20px;
     font-size: 16px;
-  }
-  .heading2 {
-    font-size: 40px;
+    margin-bottom: 35px;
   }
 }

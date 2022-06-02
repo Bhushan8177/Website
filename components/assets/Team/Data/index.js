@@ -43,14 +43,15 @@ export const DATA = [
 ];
 export const DATA2 = [
   {
-    name: "Sourabh Bharale",
+    name: "Mrunmayi Shirke",
     position: "Doubt Solver",
-    class: "(SE-AI&DS)",
-    photo: sourabh,
-    linkedin: " https://www.linkedin.com/in/sourabh-bharale-a9365821a/",
-    instagram: "https://www.instagram.com/_s0ur48h_/",
-    github: "https://www.github.com/Sourabh-Bharale",
+    class: "(SE-COMPUTER)",
+    photo: mrunmayi,
+    linkedin: " https://www.linkedin.com/in/mrunmayishirke",
+    instagram: "https://www.instagram.com/mrunmayiii__/",
+    github: "https://github.com/Mrunmayii",
   },
+
   {
     name: "Bhushan Kale",
     position: "Doubt Solver",
@@ -71,13 +72,13 @@ export const DATA2 = [
     github: "https://github.com/nishant-bhosale",
   },
   {
-    name: "Mrunmayi Shirke",
+    name: "Sourabh Bharale",
     position: "Doubt Solver",
-    class: "(SE-COMPUTER)",
-    photo: mrunmayi,
-    linkedin: " https://www.linkedin.com/in/mrunmayishirke",
-    instagram: "https://www.instagram.com/mrunmayiii__/",
-    github: "https://github.com/Mrunmayii",
+    class: "(SE-AI&DS)",
+    photo: sourabh,
+    linkedin: " https://www.linkedin.com/in/sourabh-bharale-a9365821a/",
+    instagram: "https://www.instagram.com/_s0ur48h_/",
+    github: "https://www.github.com/Sourabh-Bharale",
   },
   {
     name: "Sapna Kul",
