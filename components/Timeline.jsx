@@ -15,7 +15,7 @@ const Timeline = () => {
     <>
       <div
         id="timeline"
-        className="w-[100vw] flex flex-col bg-[#0F263A] mt-[65px] lg:mt-[200px] "
+        className="w-[100vw] flex flex-col bg-[#0F263A]  lg:mt-[0px]  mt-[100px]"
       >
         <div className="flex flex-row mb-8 justify-center items-center">
           <div className=" w-[250px] h-[250px] lg:w-[675px] lg:h-[450px] flex md:mr-auto lg:mr-auto ml-auto cursor-pointer">

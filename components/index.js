@@ -11,4 +11,4 @@ export { default as Mission } from "./Mission";
 export { default as JoinPage } from "./JoinPage/JoinPage";
 export { default as TeamPage } from "./TeamPage/TeamPage";
 export { default as Questions } from "./Questions/Questions";
-
+export { default as ClubOperations } from "./Operations/ClubOperations";

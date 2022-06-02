@@ -35,9 +35,9 @@ const LandingSlide = () => {
           </div>
 
           <div className="lg:pt-12 pt-0">
-            <Link href="/events">
+            <Link href="#joinclub">
               <button className={classes.btn}>
-                <span className={classes.span}>VIEW EVENTS</span>
+                <span className={classes.span}>JOIN NOW</span>
                 <svg viewBox="0 0 13 10" height="10px" width="15px">
                   <path d="M1,5 L11,5"></path>
                   <polyline points="8 1 12 5 8 9"></polyline>

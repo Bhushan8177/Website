@@ -1,5 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Paytone+One&display=swap");
+
 .contact_section {
-  background-color: #1e1e1e;
+  /* background-color: #1e1e1e; */
   width: 100vw;
   height: auto;
   display: flex;
@@ -12,9 +14,11 @@
 
 .heading {
   color: #ffffff;
-  font-size: 4.5vw;
+  font-size: 60px;
   font-style: bold;
   font-weight: 800;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Paytone One", sans-serif;
 }
 .inputheading {
   font-size: 1.2vw;
@@ -27,7 +31,7 @@
   color: #ffffff;
   margin-top: 1.7em;
   line-height: 1.3em;
-  font-size: 1.2vw;
+  font-size: 28px;
   text-align: center;
 }
 .contact {
@@ -52,12 +56,17 @@
   margin-top: 90px;
   /* margin-right: 200px; */
   gap: 50px;
+  padding: 100px;
+  padding-top: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .input {
   all: unset;
   border: 1px solid #d9d9d9;
+  color: #fff;
   padding: 10px 20px;
-  width: 30vw;
+  width: 50vw;
   height: 5vh;
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -65,15 +74,17 @@
 }
 .textarea {
   all: unset;
+  color: #fff;
   background-color: fff;
   border: 1px solid #d9d9d9;
   padding: 10px 20px;
-  width: 30vw;
+  width: 50vw;
   height: 22vh;
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px;
 }
+
 .btn {
   font-family: inherit;
   font-size: 20px;
@@ -128,23 +139,22 @@
 }
 
 @media screen and (max-width: 768px) {
-  .input{
-    width:60vw;
+  .input {
+    width: 60vw;
   }
-  .textarea{
-    width:60vw;
+  .textarea {
+    width: 60vw;
   }
-  .inputheading{
+  .inputheading {
     font-size: 2.5vw;
   }
-  .heading{
+  .heading {
     font-size: 7.5vw;
   }
-  .para{
+  .para {
     font-size: 2.1vw;
   }
-  .form{
+  .form {
     margin-top: 40px;
   }
-
 }

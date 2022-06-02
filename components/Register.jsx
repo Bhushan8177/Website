@@ -11,29 +11,23 @@ import ques_mark from "./assets/ques_mark.png";
 const Register = () => {
   return (
     <>
-      <div className="lg:pl-32 lg:pr-32 bg-[#DDF7F1]">
-        <div className="font-bold text-5xl text-center pt-16 text-[#469697] lg:ml-0 lg:mr-0 ml-2 mr-2 pb-12 ">
-          How to Register?
-        </div>
-        <div className="font-semibold text-4xl text-[#469697] mt-16 ml-12">
-          Mentor Registration
+      <div className="lg:pl-32 lg:pr-32 pt-20">
+        <div className=" font-Paytone font-semibold text-4xl text-[#fff] mt-0 ml-12">
+          MENTOR <span className="text-[#f32053]">REGISTRATION</span>
         </div>
         <div className="lg:flex lg:fex-row mt-8 justify-center ml-8 mr-8 lg:ml-0 lg:mr-0">
-          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-white lg:w-[447px] lg:h-[459px] mb-8">
+          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc  lg:w-[447px] lg:h-[459px] mb-8">
             <div className="">
               <Image alt="xyz" src={MentorForm} width="410px" height="256px" />
             </div>
-            <div className="p-2 pt-4 lg:w-[412px] break-words">
-              fill out the form :{" "}
-              <a
-                href="https://docs.google.com/forms/d/e/1FAIpQLSetPmIxGa04RvRXWA22MhW9AlmYWGxhVG8eNbOLKXlWyHHpiQ/viewform?usp=sf_link"
-                className="text-blue-300"
-              >
-                https://docs.google.com/forms/d/e/1FAIpQLSetPmIxGa04RvRXWA22MhW9AlmYWGxhVG8eNbOLKXlWyHHpiQ/viewform?usp=sf_link
+            <div className="p-2 pt-4 lg:w-[412px]  text-white break-words">
+              Fill out the form :{" "}
+              <a href="/" className="text-blue-300">
+                Coming Soon
               </a>
             </div>
           </div>
-          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-white lg:w-[363px] lg:h-[459px] mb-8">
+          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[363px] lg:h-[459px] mb-8">
             <div className="">
               <Image
                 alt="xyz"
@@ -42,12 +36,12 @@ const Register = () => {
                 height="256px"
               />
             </div>
-            <div className="p-2 pt-4 lg:w-[330px] break-words">
+            <div className="p-2 pt-4 lg:w-[330px] text-white break-words">
               Once we find your profile perfect for a mentor, we let you know
               about it through a mail. Then you can join our discord server.
             </div>
           </div>
-          <div className="lg:flex lg:flex-col  p-4 lg:pt-12 rounded-2xl bg-white lg:w-[328px] lg:h-[459px] mb-8">
+          <div className="lg:flex lg:flex-col  p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[328px] lg:h-[459px] mb-8">
             <div className=" pt-8 ">
               <Image
                 alt="xyz"
@@ -56,18 +50,18 @@ const Register = () => {
                 height="219px"
               />
             </div>
-            <div className="p-2 pt-4 lg:w-[301px] break-words">
+            <div className="p-2 pt-4 lg:w-[301px] text-white break-words">
               We will let you know of your allotted mentees and the discord
               could also be used to establish meaningful connection.
             </div>
           </div>
         </div>
 
-        <div className="font-semibold text-4xl text-[#469697] mt-16  ml-12">
-          Mentee Registration
+        <div className=" font-Paytone font-semibold text-4xl text-[#fff] mt-16  ml-12">
+          MENTEE <span className="text-[#f32053]">REGISTRATION</span>
         </div>
         <div className="lg:flex lg:fex-row mt-8 justify-center ml-8 mr-8 lg:ml-0 lg:mr-0 pb-16">
-          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-white lg:w-[447px] lg:h-[459px] mb-8">
+          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[447px] lg:h-[459px] mb-8">
             <div className="">
               <Image
                 alt="xyz"
@@ -76,17 +70,17 @@ const Register = () => {
                 height="256px"
               />
             </div>
-            <div className="p-2 pt-4 lg:w-[412px] break-words">
-              fill out the form :{" "}
+            <div className="p-2 text-white pt-4  lg:w-[412px] break-words">
+              Fill out the form :{" "}
               <a
                 href="https://docs.google.com/forms/d/e/1FAIpQLSetPmIxGa04RvRXWA22MhW9AlmYWGxhVG8eNbOLKXlWyHHpiQ/viewform?usp=sf_link"
                 className="text-blue-300"
               >
-                https://docs.google.com/forms/d/e/1FAIpQLSetPmIxGa04RvRXWA22MhW9AlmYWGxhVG8eNbOLKXlWyHHpiQ/viewform?usp=sf_link
+                Coming Soon
               </a>
             </div>
           </div>
-          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-white lg:w-[363px] lg:h-[459px] mb-8">
+          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[363px] lg:h-[459px] mb-8">
             <div className="">
               <Image
                 alt="xyz"
@@ -95,12 +89,12 @@ const Register = () => {
                 height="256px"
               />
             </div>
-            <div className="p-2 pt-4 lg:w-[330px] break-words">
+            <div className="p-2 pt-4 lg:w-[330px] text-white break-words">
               Once we find your profile perfect for a mentor, we let you know
               about it through a mail. Then you can join our discord server.
             </div>
           </div>
-          <div className="lg:flex lg:flex-col  p-4 lg:pt-12 rounded-2xl bg-white lg:w-[328px] lg:h-[459px] mb-8">
+          <div className="lg:flex lg:flex-col  p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[328px] lg:h-[459px] mb-8">
             <div className=" pt-8 ">
               <Image
                 alt="xyz"
@@ -109,7 +103,7 @@ const Register = () => {
                 height="219px"
               />
             </div>
-            <div className="p-2 pt-4 lg:w-[301px] break-words">
+            <div className="p-2 pt-4 lg:w-[301px] text-white break-words">
               We will let you know of your allotted mentees and the discord
               could also be used to establish meaningful connection.
             </div>

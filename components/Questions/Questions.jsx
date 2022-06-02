@@ -10,10 +10,10 @@ const Questions = () => {
   return (
     <>
       <div className={styles.questions}>
-          <div className={styles.question}>
-            <h1 className={styles.text}>HAVE ANY QUESTIONS?</h1>
-          </div>
-          <div className={styles.btnimg}>
+        <div className={styles.question}>
+          <h1 className={styles.text}>HAVE ANY QUESTIONS?</h1>
+        </div>
+        <div className={styles.btnimg}>
           <div className={styles.questbtn}>
             <Link href="/contact">
               <button style={{ margin: 0 }} className={classes.btn}>
@@ -25,9 +25,9 @@ const Questions = () => {
               </button>
             </Link>
           </div>
-        <div className={styles.image}>
-          <Image alt="xyz" src={AskQuestion} width="120" height="100" />
-        </div>
+          <div className={styles.image}>
+            <Image alt="xyz" src={AskQuestion} width="120" height="100" />
+          </div>
         </div>
       </div>
     </>

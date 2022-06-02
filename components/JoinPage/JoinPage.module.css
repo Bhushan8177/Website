@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Paytone+One&display=swap");
+
 .join_section {
   width: 100vw;
   height: auto;
@@ -7,13 +9,17 @@
   flex-direction: column;
   padding: 100px;
   padding-top: 80px;
-  background-color: #1e1e1e;
+  /* background-color: #1e1e1e; */
 }
 .heading {
   color: #ffffff;
   line-height: 1.4;
-  font-size: 75px;
+  margin-top: 20px;
+  font-size: 50px;
   font-weight: 900;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Paytone One", sans-serif;
+  text-align: center;
 }
 .red {
   display: flex;
@@ -23,7 +29,7 @@
 }
 .para {
   color: #ffffff;
-  font-size: 20px;
+  font-size: 28px;
   /* letter-spacing: 1px;
   word-spacing: 1px; */
   margin-top: 50px;
@@ -38,6 +44,10 @@
   flex-direction: column;
   /* margin-right: 200px; */
   gap: 50px;
+  padding: 100px;
+  padding-top: 0;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .input_container {
   display: flex;
@@ -50,16 +60,17 @@
   font-weight: 100;
   font-size: 32px;
   line-height: 38px;
-  color: #7f7f7f;
+  color: #ffffff;
   margin-bottom: 15px;
   padding-left: 18px;
+  font-family: "Open Sans", sans-serif;
 }
 .input {
   all: unset;
   background-color: #00000000;
   border: 1px solid #d9d9d9;
   padding: 10px 20px;
-  width: 30vw;
+  width: 50vw;
   height: 5vh;
   color: #fff;
   border-radius: 20px;
@@ -121,12 +132,15 @@
 }
 
 @media screen and (max-width: 768px) {
+  .join_section {
+    padding: 20px;
+  }
   .heading {
     padding-left: 10px;
     font-size: 32px;
   }
   .para {
-    font-size: 12px;
+    font-size: 16px;
   }
   .input {
     width: 80vw;

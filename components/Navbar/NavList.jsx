@@ -12,8 +12,8 @@ const NavList = ({ onClick }) => {
           </Link>
         </li>
         <li className={classes.link_container}>
-          <Link href="/about" onClick={onClick}>
-            <a className={classes.link}> About</a>
+          <Link href="/joinus" onClick={onClick}>
+            <a className={classes.link}> Join Us</a>
           </Link>
         </li>
         <li className={classes.link_container}>
