@@ -57,7 +57,7 @@
   all: unset;
   border: 1px solid #d9d9d9;
   padding: 10px 20px;
-  width: 70vw;
+  width: 40vw;
   height: 5vh;
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -68,7 +68,7 @@
   background-color: fff;
   border: 1px solid #d9d9d9;
   padding: 10px 20px;
-  width: 70vw;
+  width: 40vw;
   height: 22vh;
   border-radius: 20px;
   box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;

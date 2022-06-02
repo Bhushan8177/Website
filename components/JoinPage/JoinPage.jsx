@@ -17,8 +17,8 @@ const JoinPage = () => {
         </p>
         <div className={classes.form}>
           <div className={classes.input_container}>
-            <label className={classes.input_label}>First Name *</label>
-            <input className={classes.input} placeholder="Rahul Sharma" />
+            <label className={classes.input_label}>First Name* </label>
+            <input className={classes.input} placeholder="Rahul Sharma" required />
           </div>
           <div className={classes.input_container}>
             <label className={classes.input_label}>Email*</label>
