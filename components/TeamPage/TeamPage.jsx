@@ -1,108 +1,24 @@
 import React from "react";
 import classes from "./tp.module.css";
 import Card from "./Card";
-import aj from "../assets/aj.jpeg";
+import aj from "../assets/Team/aj.jpeg";
 
-const DATA = [
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-];
-const DATA2 = [
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-];
-const DATA3 = [
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-  {
-    name: "spider",
-    position: "nyu",
-    class: "comp",
-    photo: aj,
-  },
-];
+import { DATA, DATA2, DATA3 } from "../assets/Team/Data/index";
 
 const TeamPage = () => {
   return (
     <>
       <div className={classes.team_section}>
         <h1 className={classes.heading}>
-          MEET OUR <span className={classes.red}> TEAM</span>
+          OUR <span className={classes.red}> TEAM</span>
         </h1>
         <p className={classes.para}>
-          Our vision for the next two years is to create a community that will
-          not only assist students in obtaining better placements and assisting
-          them in their path, but will also give confidence in them to achieve
-          future milestones.
+          Our team consists of some of the most devoted and driven students from
+          various fields who have made significant progress in their coding
+          journey.
         </p>
         <div className={classes.team}>
-          {DATA.map((m, i) => (
+          {DATA?.map((m, i) => (
             <Card m={m} key={i} />
           ))}
         </div>

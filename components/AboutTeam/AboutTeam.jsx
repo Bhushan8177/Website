@@ -1,37 +1,33 @@
 import React, { Suspense } from "react";
-import Box from "./threejs/Box";
-import { AmbientLight } from "three";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
-import AskQuestion from "./assets/askQuestions.svg";
 import Image from "next/image";
 import Link from "next/link";
-import Model from "./DemoModels";
-import classes from "./LandingSlide/LandingSlide.module.css";
-import t4 from "./assets/t4.svg";
+import classes from "../LandingSlide/LandingSlide.module.css";
+import t4 from "../assets/t4.svg";
+import styles from "./AboutTeam.module.css";
+
 
 const AboutTeam = () => {
   return (
     <>
-      <div className="flex flex-row">
-        <div className="flex flex-col lg:pl-16 lg:pr-16 lg:mt-[0px] justify-center">
-          <div className="pl-8 pr-8">
-            <h2 className="text-sm font-semibold text-[#89BAEE]  text-center lg:text-left lg:pl-0">
+      <div className={styles.mainabout}>
+        <div className={styles.leftcolumnteam}>
+          <div className={styles.teammainhead}>
+            <h2 className={styles.aboutteamhead}>
               About the Team
             </h2>
-            <h1 className="font-bold lg:text-5xl text-3xl text-[#A8ECF0] text-center lg:text-left lg:pl-0 pb-8 ">
-              <span className="text-white font-bold pr-4">MEET OUR</span>
+            <h1 className={styles.teamhead1}>
+              <span className={styles.teamhead2}>MEET OUR</span>
               TEAM
             </h1>
           </div>
-          <p className="lg:text-lg  text-sm lg:font-semibold font-[400] text-[#FFFFFF] pl-8 pr-8 lg:text-center text-left">
+          <p className={styles.teammssg}>
             Our primary goal is to promote CP in our college community and help
             students enhance their problem-solving abilities. Our primary goal
             is to promote CP in our college community and help students enhance
             their
           </p>
         </div>
-        <div className="flex flex-col lg:pl-16 lg:pr-16 lg:mt-[180px]">
+        <div>
           {/* <div className=" w-[150px] h-[150px] lg:w-[500px] lg:h-[500px] flex md:mr-auto lg:mr-auto ml-auto cursor-pointer">
             <Canvas className="">
               <OrbitControls enableDamping={true} enableZoom={false} />
@@ -51,10 +47,10 @@ const AboutTeam = () => {
               </Suspense>
             </Canvas>
           </div> */}
-          <Image src={t4} width={1000} height={1000} />
+          <Image src={t4} width={600} height={450} />
         </div>
       </div>
-      <div className="mt-10 mb-40 lg:mt-20">
+      <div className={styles.teambtn}>
         <Link href="team">
           <button className={classes.btn}>
             <span className={classes.span}>OUR TEAM</span>

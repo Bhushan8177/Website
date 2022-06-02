@@ -7,33 +7,34 @@ import instagram from "../assets/Social/instagram.svg";
 import twitter from "../assets/Social/twitter.svg";
 import gmail from "../assets/Social/gmail.svg";
 import logo from "../assets/CPMC.svg";
+import insta from "../assets/instagram-new.png"
+import linkd from "../assets/linkedin.png"
 
 const Footer = () => {
   return (
     <>
       <div className={classes.footer_container}>
         <div className={classes.footer}>
-          <div className={classes.logo}>
-            <Image
-              alt="xyz"
-              src={logo}
-              width={150}
-              height={150}
-              layout="fixed"
-            />
+          <div className={classes.logotagline}>
+            <div className={classes.logo}>
+              <Image
+                alt="xyz"
+                src={logo}
+                width={150}
+                height={100}
+                layout="fixed"
+              />
+            </div>
+            <div className={classes.tagline}>
+              Where Creativity meets innovation
+            </div>
           </div>
-          <div className={classes.linker}>
             <div className={classes.menu}>
               Menu
               <ul className={classes.footer_links}>
                 <li className={classes.link_container}>
                   <Link href="/">
                     <a className={classes.link}> Home</a>
-                  </Link>
-                </li>
-                <li className={classes.link_container}>
-                  <Link href="/about">
-                    <a className={classes.link}> About</a>
                   </Link>
                 </li>
                 <li className={classes.link_container}>
@@ -55,42 +56,25 @@ const Footer = () => {
             </div>
             <div className={classes.social}>
               Connect With Us
-              <ul className={classes.social_links}>
-                <li className={classes.link_container}>
-                  <a className={classes.link}>
-                    <Image
-                      src={linkedin}
-                      alt="linkedin"
-                      width={50}
-                      height={50}
-                      layout="fixed"
-                    />
-                  </a>
-                </li>
-                <li className={classes.link_container}>
-                  <a className={classes.link}>
-                    <Image
-                      src={instagram}
-                      alt="instagram"
-                      width={50}
-                      height={50}
-                      layout="fixed"
-                    />
-                  </a>
-                </li>
-                <li className={classes.link_container}>
-                  <a className={classes.link}>
-                    <Image src={twitter} alt="twitter" width={50} height={50} />
-                  </a>
-                </li>
-                <li className={classes.link_container}>
-                  <a className={classes.link}>
-                    <Image src={gmail} alt="gmail" width={50} height={50} />
-                  </a>
-                </li>
-              </ul>
+              <div className={classes.socialmedia}>
+                <div className={classes.linkedin}>
+                    <div className={classes.innerlink}>
+                      <div className="name">Linkedin</div>
+                      <div className={classes.icon}>
+                        <Image alt="xyz" src={linkd} width={24} height={24} layout="fixed"/>
+                      </div>
+                    </div>
+                </div>
+                <div className={classes.instagram}>
+                    <div className={classes.innerinsta}>
+                        <div className="name">Instagram</div>
+                        <div className={classes.icon}>
+                          <Image alt="xyz" src={insta} width={24} height={24} layout="fixed"/>
+                        </div>
+                    </div>
+                </div>
+              </div>
             </div>
-          </div>
         </div>
         <div className={classes.footer_ruler}></div>
       </div>

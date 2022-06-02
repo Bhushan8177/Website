@@ -5,6 +5,7 @@
 [![Issues](https://img.shields.io/github/issues/CPMC-DYPCOE/Website)](#issues)
 [![forks](https://img.shields.io/github/forks/CPMC-DYPCOE/Website)](#forks)
 ![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)
+![stars](https://img.shields.io/badge/Stars-%E2%AD%90-blue)
 
 <!-- PROJECT LOGO -->
 <br />
@@ -46,12 +47,12 @@ uncharted territory.
 
  <img src="https://img.shields.io/badge/nestjs-%23E0234E.svg?style=for-the-badge&logo=nestjs&logoColor=white)">  <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white">  <img src="https://img.shields.io/badge/threejs-black?style=for-the-badge&logo=three.js&logoColor=white">
  
-## Demo 👨‍💻
+## Glimpse ✨
 
-To view a DEMO, [click here](https://website-3qdz1gwya-abcdefg1234007.vercel.app/)
+### Website : [click here](https://website-3qdz1gwya-abcdefg1234007.vercel.app/)
 
-## Snapshots 🖼️
-<img width="1200" alt="site ss" src="https://user-images.githubusercontent.com/91309280/171473034-62d2a5e9-5f2b-4a2d-8419-c195bfbbd83a.png">
+
+<img width="1100" alt="site ss" src="https://user-images.githubusercontent.com/91309280/171473034-62d2a5e9-5f2b-4a2d-8419-c195bfbbd83a.png">
 
   
 ## Contributing 💡
@@ -63,9 +64,9 @@ See the [open issues](https://github.com/CPMC-DYPCOE/Website/issues) for a full 
 
 ## Community 👥
 
-[![Discord](https://img.shields.io/badge/Discord-Connect-blue)](https://discord.gg/8n7gStkGyG)
-[![Instagram](https://img.shields.io/badge/Instagram-Follow-red)](https://www.instagram.com/cpmc_dypcoe/)
-[![Linkedin](https://img.shields.io/badge/Linkedin-Connect-yellowgreen)](https://www.linkedin.com/company/cpmc-dypcoe/)
+[![Discord](https://img.shields.io/badge/%3CServer%3E-%237289DA.svg?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/8n7gStkGyG)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/cpmc_dypcoe/)
+[![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/company/cpmc-dypcoe/)
 
 ## License 📄
 
