@@ -6,12 +6,12 @@
   align-items: center;
   flex-direction: column;
   /* padding: 70px; */
-  padding-top: 80px;
+  padding-top: 20px;
   background-color: #1e1e1e;
 }
 .heading {
   color: #469697;
-  font-size: 95px;
+  font-size: 96px;
   font-weight: 600;
   color: #ffffff;
   /* width: 60%; */
@@ -21,11 +21,10 @@
 }
 .para {
   color: #ffffff;
-  font-size: 20px;
-  letter-spacing: 1px;
-  word-spacing: 1px;
-  margin-bottom: 80px;
-  padding: 0 200px;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-bottom: 95px;
+  padding: 0 100px;
 }
 .team {
   /* margin: 0 50px; */
@@ -38,7 +37,7 @@
 .heading2 {
   margin: 50px 0 100px 0;
   color: #fff;
-  font-size: 40px;
+  font-size: 96px;
   font-weight: 600;
 }
 @media screen and (max-width: 768px) {
