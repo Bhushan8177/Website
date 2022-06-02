@@ -23,7 +23,6 @@
   width: 50%;
   padding: 0px 5rem;
 }
-
 .number {
   color: white;
   font-size: 3rem;
@@ -40,7 +39,7 @@
   color: white;
 }
 
-@media only screen and (max-width: 900px) {
+@media screen and (max-width: 900px) {
   .main {
     margin-top: 100px;
     padding: 10px;
