@@ -28,7 +28,7 @@
 }
 .socialmedia{
     justify-items: center;
-
+    align-items: center;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
@@ -70,12 +70,16 @@
   font-size: 32px;
   font-weight: 600;
 }
+.menu
+{
+    align-items: center;
+}
 .footer_links {
   margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   color: rgb(255, 255, 255);
   font-size: 20px;
   font-weight: normal;
@@ -97,7 +101,7 @@
   height: 2px;
   background-color: aliceblue;
 }
-@media screen and (max-width: 768px) {
+@media(max-width: 768px) {
   .footer_container {
     height: auto;
     flex-direction: column;
@@ -109,7 +113,7 @@
   }
   .menu,
   .social {
-    font-size: 16px;
+    font-size: 2rem;
     margin: 20px;
     white-space: nowrap;
   }
@@ -119,4 +123,12 @@
   .social_links {
     flex-wrap: wrap;
   }
+  .tagline{
+    margin-bottom: 1rem;
+  }
+  .linkedin, .instagram{
+      width: 50vw;
+      padding: 5px;
+  }
+
 }

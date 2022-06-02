@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 2rem;
 }
 .teammainhead{
     margin-left: 60px;
@@ -21,6 +22,10 @@
     margin-left: 60px;
     width: 45vw;
 }
+.teambtn{
+    margin-left: 60px;
+    margin-top: 30px;
+}
 .teamhead1{
     color: #A8ECF0;
     font-weight: bold;
@@ -35,10 +40,6 @@
     font-size: 1.5rem;
     font-weight: 400;
 }
-.teambtn{
-    margin-bottom: 8rem;
-}
-
 @media(max-width: 750px)
 {
     .mainabout{
@@ -46,12 +47,22 @@
         flex-direction: column;
     }
     .teammssg{
-        text-align: center;
+        width: 80vw;
+        margin-left: 20px;
     }
     .teamhead1{
+        font-size: 2.5rem;
+        margin-bottom: 1.4rem;
         white-space: nowrap;
     }
     .leftcolumnteam{
         align-items: center;
+        
+    }
+    .teambtn{
+        margin-top: -10px;
+    }
+    .teammainhead{
+        margin-left: 20px;
     }
 }
