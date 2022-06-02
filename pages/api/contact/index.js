@@ -1,32 +1,31 @@
 const { validateEmail } = require("../../../utils/utils");
-const sendGrid = require("@sendgrid/mail");
-sendGrid.setApiKey(process.env.SENDGRID_KEY);
+const Contact = require("../../../server/models/Contact");
+const connectDB = require("../../../server/db/connect");
 
 const handler = async (req, res) => {
 	if (req.method !== "POST") {
 		return res.status(400).json({ message: "Invalid request" });
 	}
 
+	await connectDB();
 	try {
 		const { name, email, message } = req.body;
 
-		if (!validateEmail(email)) {
-			return res.status(401).json({ message: "Invalid email address" });
+		if (!validateEmail(email) || !name || !message) {
+			return res.status(401).json({ message: "Invalid credentials" });
 		}
 
-		let customMessage =
-			`Hello, my name is ${name}. And my email is ${email}. ` + message;
+		const newContact = new Contact({
+			name,
+			email,
+			message,
+		});
 
-		const msg = {
-			to: "bhosalepranav36@gmail.com",
-			from: "nishantbhosale244@gmail.com",
-			subject: "Contact With CPMC Club",
-			text: customMessage,
-		};
+		await newContact.save();
 
-		await sendGrid.send(msg);
-
-		res.status(200).json({ message: "Email sent successfully" });
+		res
+			.status(200)
+			.json({ message: "Message sent successfully", contact: newContact });
 	} catch (error) {
 		console.log(error);
 		res.status(500).json({ message: "Internal server error" });
