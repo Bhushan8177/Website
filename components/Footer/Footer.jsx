@@ -57,6 +57,7 @@ const Footer = () => {
             <div className={classes.social}>
               Connect With Us
               <div className={classes.socialmedia}>
+                <Link href="https://www.linkedin.com/company/cpmc-dypcoe/">
                 <div className={classes.linkedin}>
                     <div className={classes.innerlink}>
                       <div className="name">Linkedin</div>
@@ -65,6 +66,8 @@ const Footer = () => {
                       </div>
                     </div>
                 </div>
+                </Link>
+                <Link href="https://www.instagram.com/cpmc_dypcoe/">
                 <div className={classes.instagram}>
                     <div className={classes.innerinsta}>
                         <div className="name">Instagram</div>
@@ -73,6 +76,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
+                </Link>
               </div>
             </div>
         </div>

@@ -41,6 +41,7 @@
     font-size: 19px;
     width: 12vw;
     color: white;
+    cursor: pointer;
 }
 .logotagline{
     display: flex;
