@@ -10,7 +10,6 @@ const Questions = () => {
   return (
     <>
       <div className={styles.questions}>
-        <div className={styles.container}>
           <div className={styles.question}>
             <h1 className={styles.text}>HAVE ANY QUESTIONS?</h1>
           </div>
@@ -25,7 +24,6 @@ const Questions = () => {
               </button>
             </Link>
           </div>
-        </div>
         <div className={styles.image}>
           <Image alt="xyz" src={AskQuestion} width="150" height="150" />
         </div>
