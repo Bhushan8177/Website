@@ -40,11 +40,11 @@ const LandingSlide = () => {
               </button>
             </Link>
 
-            <a href="#timeline">
+            <Link href="#timeline">
               <div className="transition delay-150  hover:-translate-x-1 hover:scale-50 duration-300 flex relative lg:top-[60px] top-[20px] justify-center items-center">
                 <Image src={down_arrow} alt="down" width={50} height={50} />
               </div>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
