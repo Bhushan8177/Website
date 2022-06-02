@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Passion+One:wght@400&display=swap");
+
+.main {
+  margin-top: 100px;
+  padding: 50px;
+}
+.container {
+  display: flex;
+  margin-bottom: 100px;
+  /* height:200px; */
+  justify-content: center;
+  align-items: center;
+}
+.container1 {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 100px;
+}
+.imgdiv {
+  width: 50%;
+  /* height:100px; */
+}
+
+.contentdiv {
+  width: 50%;
+  padding: 0px 5rem;
+}
+
+.number {
+  color: white;
+  /* font-weight: bold; */
+  font-size: 3rem;
+  font-family: "Passion One", cursive;
+}
+.heading {
+  font-family: "Passion One", cursive;
+  font-size: 3.5rem;
+  line-height: 3.5rem;
+  color: #a8ecf0;
+}
+.subheading {
+  font-family: "Inter", sans-serif;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .main {
+    margin-top: 100px;
+    padding: 10px;
+  }
+  .container {
+    display: flex;
+    margin-bottom: 100px;
+    /* height:200px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 100px;
+  }
+  .imgdiv {
+    width: 60%;
+    /* height:100px; */
+  }
+
+  .contentdiv {
+    width: 50%;
+    padding: 0px 2rem;
+  }
+
+  .number {
+    color: white;
+    /* font-weight: bold; */
+    font-size: 2rem;
+    font-family: "Passion One", cursive;
+  }
+  .heading {
+    font-family: "Passion One", cursive;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    color: #a8ecf0;
+  }
+  .subheading {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main {
+    margin-top: 70px;
+    padding: 10px;
+  }
+  .container {
+    display: flex;
+    margin-bottom: 70px;
+    /* height:200px; */
+    justify-content: center;
+    align-items: center;
+  }
+  .container1 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 70px;
+  }
+  .imgdiv {
+    width: 50%;
+    /* height:100px; */
+  }
+
+  .contentdiv {
+    width: 50%;
+    padding: 0px 1rem;
+  }
+
+  .number {
+    color: white;
+    /* font-weight: bold; */
+    font-size: 1.8rem;
+    font-family: "Passion One", cursive;
+  }
+  .heading {
+    font-family: "Passion One", cursive;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: #a8ecf0;
+  }
+  .subheading {
+    font-family: "Inter", sans-serif;
+    color: white;
+    font-size: 0.6rem;
+  }
+}

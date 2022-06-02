@@ -12,9 +12,9 @@ const Contact = () => {
           CONTACT <span className={classes.red}>US</span>
         </h1>
         <p className={classes.para}>
-          If you'd like to support us, deliver a talk in our mentorship program,
-          or have a new idea you'd like to contribute, please fill out the form
-          below!
+          If you&#39;d like to support us, deliver a talk in our mentorship
+          program, or have a new idea you&#39;d like to contribute, please fill
+          out the form below!
         </p>
         <div className={classes.contact}>
           {/* <div className={classes.image}>

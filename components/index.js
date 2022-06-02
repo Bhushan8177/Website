@@ -6,7 +6,7 @@ export { default as Register } from "./Register";
 export { default as Vision } from "./Vision";
 export { default as JoinClub } from "./JoinClub";
 export { default as AboutTeam } from "./AboutTeam/AboutTeam";
-export { default as Timeline } from "./Timeline";
+export { default as Timeline } from "./Timeline/Timeline";
 export { default as Mission } from "./Mission";
 export { default as JoinPage } from "./JoinPage/JoinPage";
 export { default as TeamPage } from "./TeamPage/TeamPage";

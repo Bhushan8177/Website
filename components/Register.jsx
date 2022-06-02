@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import MentorForm from "./assets/mentorForms.svg";
 import MentorFormStep2 from "./assets/step2MentorRegistration.svg";
 import MentorFormStep3 from "./assets/step3MentorRegistration.svg";
@@ -22,9 +23,9 @@ const Register = () => {
             </div>
             <div className="p-2 pt-4 lg:w-[412px]  text-white break-words">
               Fill out the form :{" "}
-              <a href="/" className="text-blue-300">
+              <Link href="/" className="text-blue-300">
                 Coming Soon
-              </a>
+              </Link>
             </div>
           </div>
           <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[363px] lg:h-[459px] mb-8">
@@ -72,12 +73,12 @@ const Register = () => {
             </div>
             <div className="p-2 text-white pt-4  lg:w-[412px] break-words">
               Fill out the form :{" "}
-              <a
+              <Link
                 href="https://docs.google.com/forms/d/e/1FAIpQLSetPmIxGa04RvRXWA22MhW9AlmYWGxhVG8eNbOLKXlWyHHpiQ/viewform?usp=sf_link"
                 className="text-blue-300"
               >
                 Coming Soon
-              </a>
+              </Link>
             </div>
           </div>
           <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[363px] lg:h-[459px] mb-8">
