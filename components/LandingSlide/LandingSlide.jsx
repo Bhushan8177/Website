@@ -5,15 +5,10 @@ import down_arrow from "../assets/downArrow.svg";
 import Logo from "../assets/CPMC.svg";
 import classes from "./LandingSlide.module.css";
 
-// import { Physics, useBox } from '@react-three/cannon';
-
-// import Box from '../threejs/Box'
-
 import { AmbientLight } from "three";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 
-// console.log(cpmcText3d)
 const LandingSlide = () => {
   return (
     <>
