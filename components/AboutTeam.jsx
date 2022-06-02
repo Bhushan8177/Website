@@ -51,7 +51,7 @@ const AboutTeam = () => {
               </Suspense>
             </Canvas>
           </div> */}
-          <Image src={t4} width={1000} height={1000} />
+          <Image alt="xyz" src={t4} width={1000} height={1000} />
         </div>
       </div>
       <div className="mt-10 mb-40 lg:mt-20">
