@@ -7,13 +7,11 @@ import { Suspense } from "react";
 import { InstancedInterleavedBuffer } from "three";
 import { Clock } from "three";
 export default function Box(props) {
-  // This reference gives us direct access to the THREE.Mesh object
   const ref = useRef();
-  // Hold state for hovered and clicked events
+
   const [hovered, hover] = useState(false);
   const [clicked, click] = useState(false);
-  // Subscribe this component to the render-loop, rotate the mesh every frame
-  // if(hovered){
+
   const delta = new Clock();
   useFrame((clicked, delta) => {
     ref.current.rotation.x += delta * 0.5;
@@ -26,8 +24,7 @@ export default function Box(props) {
       ref.current.rotation.z += delta;
     }
   });
-  // }
-  // Return the view, these are regular Threejs elements expressed in JSX
+
   return (
     <mesh
       {...props}

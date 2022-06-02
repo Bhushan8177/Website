@@ -9,13 +9,8 @@ import logo1 from "../assets/CPMCLogo.svg";
 const Navbar = () => {
   const [isActive, setActive] = useState(false);
 
-  // const disableScroll = () => {
-  //   document.body.classList.toggle("stop-scrolling");
-  // };
-
   const navHandler = () => {
     setActive(!isActive);
-    // disableScroll();
   };
   return (
     <>
