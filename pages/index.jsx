@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import {
   LandingSlide,
-  Timeline,
+  TimeLines,
   Mission,
   Footer,
   Registers,
@@ -22,7 +22,7 @@ export default function Home() {
       </Head>
 
       <LandingSlide />
-      <Timeline />
+      <TimeLines />
       <Mission />
       <ClubOperations />
       <JoinClub />
