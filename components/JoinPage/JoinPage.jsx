@@ -4,6 +4,7 @@ import classes from "./JoinPage.module.css";
 import Link from "next/link";
 
 const JoinPage = () => {
+
 	const nameInput = useRef();
 	const emailInput = useRef();
 	const phoneNumberInput = useRef();
@@ -16,6 +17,7 @@ const JoinPage = () => {
 	const codeChefIdInput = useRef();
 	const codeForcesIdInput = useRef();
 	const atCoderIdInput = useRef();
+
 
 	const submitFormHandler = async (e) => {
 		e.preventDefault();

@@ -21,15 +21,15 @@ const Contact = () => {
           </div> */}
           <div className={classes.form}>
             <div className={classes.input_container}>
-              <h1 className={classes.inputheading}>Name</h1>
+              <h1 className={classes.inputheading}>Name*</h1>
               <input className={classes.input} placeholder="Full Name" />
             </div>
             <div className={classes.input_container}>
-              <h1 className={classes.inputheading}>Email address</h1>
+              <h1 className={classes.inputheading}>Email address*</h1>
               <input className={classes.input} placeholder="Email" />
             </div>
             <div className={classes.input_container}>
-              <h1 className={classes.inputheading}>Message</h1>
+              <h1 className={classes.inputheading}>Message*</h1>
               <textarea
                 className={classes.textarea}
                 placeholder="Type Your Message Here..!"

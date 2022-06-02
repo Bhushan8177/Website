@@ -1,0 +1,57 @@
+.mainabout{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.teammainhead{
+    margin-left: 60px;
+}
+.leftcolumnteam{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-right: 20px;
+}
+.teammssg{
+    font-size: 20px;
+    text-align:justify;
+    color: white;
+    font-weight: 400;
+    margin-left: 60px;
+    width: 45vw;
+}
+.teamhead1{
+    color: #A8ECF0;
+    font-weight: bold;
+    font-size: 2.8rem;
+}
+.teamhead2{
+    color: white;
+    margin-right: 16px;
+}
+.aboutteamhead{
+    color: #89BAEE;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.teambtn{
+    margin-bottom: 8rem;
+}
+
+@media(max-width: 750px)
+{
+    .mainabout{
+        align-items: center;
+        flex-direction: column;
+    }
+    .teammssg{
+        text-align: center;
+    }
+    .teamhead1{
+        white-space: nowrap;
+    }
+    .leftcolumnteam{
+        align-items: center;
+    }
+}
