@@ -82,7 +82,7 @@
   transform: scale(0.95);
 }
 .down_arrow {
-  position: absolute;
+  position: absolute ;
   top: 67vh;
   left: 48vw;
   cursor: pointer;
