@@ -7,12 +7,18 @@
   padding: 10px;
   background-color: #091e32;
   margin: 0px auto;
-  margin-bottom: 10vw;
+  margin-bottom: 8vw;
   border-radius: 15px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
-.btn{
+.questbtn{
     padding: 10px;
+}
+.btnimg{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: row;
 }
 
 .text {
@@ -30,5 +36,21 @@
     .text
     {
         white-space: nowrap;
+    }
+}
+@media(max-width: 600px)
+{
+    .questions{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      flex-direction: column;
+      width: 90vw;
+    }
+    .text
+    {
+        margin-right: 0px;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
     }
 }
