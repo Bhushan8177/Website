@@ -1,9 +1,9 @@
-import React, { Suspense } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import classes from "../LandingSlide/LandingSlide.module.css";
-import t4 from "../assets/t4.svg";
-import styles from "./AboutTeam.module.css";
+import React, { Suspense } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import classes from '../LandingSlide/LandingSlide.module.css';
+import t4 from '../assets/t4.svg';
+import styles from './AboutTeam.module.css';
 
 const AboutTeam = () => {
   return (
@@ -18,10 +18,9 @@ const AboutTeam = () => {
             </h1>
           </div>
           <p className={styles.teammssg}>
-            Our primary goal is to promote CP in our college community and help
-            students enhance their problem-solving abilities. Our primary goal
-            is to promote CP in our college community and help students enhance
-            their
+            Our primary goal is to promote CP in our college community and help students enhance
+            their problem-solving abilities. Our primary goal is to promote CP in our college
+            community and help students enhance their
           </p>
           <div className={styles.teambtn}>
             <Link href="/team">

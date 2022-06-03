@@ -1,7 +1,7 @@
-import React from "react";
-import { useRef } from "react";
-import classes from "./JoinPage.module.css";
-import Link from "next/link";
+import React from 'react';
+import { useRef } from 'react';
+import classes from './JoinPage.module.css';
+import Link from 'next/link';
 
 const JoinPage = () => {
   const nameInput = useRef();
@@ -20,8 +20,8 @@ const JoinPage = () => {
   const submitFormHandler = async (e) => {
     e.preventDefault();
     try {
-      const res = await fetch("/api/join-team", {
-        method: "POST",
+      const res = await fetch('/api/join-team', {
+        method: 'POST',
         body: JSON.stringify({
           firstName: nameInput.current.value,
           email: emailInput.current.value,
@@ -34,11 +34,11 @@ const JoinPage = () => {
           leetCodeId: leetCodeIdInput.current.value,
           academicYear: academicYearInput.current.value,
           hackerRankId: hackerRankIdInput.current.value,
-          hackerEarthId: hackerEarthIdInput.current.value,
+          hackerEarthId: hackerEarthIdInput.current.value
         }),
         headers: {
-          "Content-Type": "application/json",
-        },
+          'Content-Type': 'application/json'
+        }
       });
 
       const data = await res.json();
@@ -54,37 +54,23 @@ const JoinPage = () => {
     <>
       <div className={classes.join_section}>
         <h1 className={classes.heading}>
-          FILL THESE DETAILS TO <br />{" "}
-          <span className={classes.red}> JOIN CLUB</span>
+          FILL THESE DETAILS TO <br /> <span className={classes.red}> JOIN CLUB</span>
         </h1>
         <p className={classes.para}>
-          Fill out the form below to join the club and become a member of the
-          C.P.M.C squad.
+          Fill out the form below to join the club and become a member of the C.P.M.C squad.
         </p>
         <div className={classes.form}>
           <div className={classes.input_container}>
             <label className={classes.input_label}>First Name *</label>
-            <input
-              className={classes.input}
-              placeholder="Rahul Sharma"
-              ref={nameInput}
-            />
+            <input className={classes.input} placeholder="Rahul Sharma" ref={nameInput} />
           </div>
           <div className={classes.input_container}>
             <label className={classes.input_label}>Email*</label>
-            <input
-              className={classes.input}
-              placeholder="rahulsharma@gmail.com"
-              ref={emailInput}
-            />
+            <input className={classes.input} placeholder="rahulsharma@gmail.com" ref={emailInput} />
           </div>
           <div className={classes.input_container}>
             <label className={classes.input_label}>Phone Number</label>
-            <input
-              className={classes.input}
-              placeholder="0123456789"
-              ref={phoneNumberInput}
-            />
+            <input className={classes.input} placeholder="0123456789" ref={phoneNumberInput} />
           </div>
           <div className={classes.input_container}>
             <label className={classes.input_label}>Academic Year</label>
@@ -167,14 +153,9 @@ const JoinPage = () => {
           </div>
 
           <button className={classes.btn} onClick={submitFormHandler}>
-            <div className={classes["svg-wrapper-1"]}>
-              <div className={classes["svg-wrapper"]}>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  viewBox="0 0 24 24"
-                  width="24"
-                  height="24"
-                >
+            <div className={classes['svg-wrapper-1']}>
+              <div className={classes['svg-wrapper']}>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
                   <path fill="none" d="M0 0h24v24H0z"></path>
                   <path
                     fill="currentColor"

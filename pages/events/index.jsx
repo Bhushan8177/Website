@@ -1,7 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import { Footer, Navbar } from "../../components";
-import styles from "../../styles/Home.module.css";
+import Head from 'next/head';
+import Image from 'next/image';
+import { Footer, Navbar } from '../../components';
+import styles from '../../styles/Home.module.css';
 
 const Events = () => {
   return (
@@ -18,8 +18,7 @@ const Events = () => {
             Looking for <span className="text-[#f32053]"> Events</span> ?
           </h1>
           <h1 className="lg:text-[30px] text-[16px]">
-            We are planning some{" "}
-            <span className="text-[#f32053]">Surprises</span> for you.
+            We are planning some <span className="text-[#f32053]">Surprises</span> for you.
           </h1>
           <h1 className="lg:text-[30px] text-[16px]">
             Stay <span className="text-[#f32053]">Tuned !</span>

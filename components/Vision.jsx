@@ -1,11 +1,11 @@
-import React from "react";
-import Image from "next/image";
-import a from "./assets/a.png";
-import b from "./assets/b.png";
-import c from "./assets/c.png";
-import v1 from "./assets/v1.gif";
-import v2 from "./assets/v2.gif";
-import v3 from "./assets/v3.png";
+import React from 'react';
+import Image from 'next/image';
+import a from './assets/a.png';
+import b from './assets/b.png';
+import c from './assets/c.png';
+import v1 from './assets/v1.gif';
+import v2 from './assets/v2.gif';
+import v3 from './assets/v3.png';
 
 const Vision = () => {
   return (
@@ -13,7 +13,7 @@ const Vision = () => {
       <div className="mt-[150px] px-40">
         <div className="flex items-center justify-between">
           <div className="">
-            <Image src={a} alt="down" width={"500px"} height={"500px"} />
+            <Image src={a} alt="down" width={'500px'} height={'500px'} />
           </div>
           <div className="text-[#469697] font-Paytone font-[800] leading-[67px] text-[48px]">
             Improve <br /> problem <br />
@@ -27,12 +27,12 @@ const Vision = () => {
             programming
           </div>
           <div className="">
-            <Image src={b} alt="down" width={"500px"} height={"400px"} />
+            <Image src={b} alt="down" width={'500px'} height={'400px'} />
           </div>
         </div>
         <div className="flex items-center justify-between">
           <div className="">
-            <Image src={c} alt="down" width={"500px"} height={"500px"} />
+            <Image src={c} alt="down" width={'500px'} height={'500px'} />
           </div>
           <div className="text-[#469697] font-Paytone font-[800] leading-[67px] text-[48px] ">
             Helping each other
@@ -50,50 +50,44 @@ const Vision = () => {
             <Image
               src={v1}
               alt="down"
-              width={"500px"}
-              height={"500px"}
+              width={'500px'}
+              height={'500px'}
               className="rounded-[50%]"
             ></Image>
-            <div className="text-[#fff] text-center font-[700] text-[36px]">
-              CP
-            </div>
+            <div className="text-[#fff] text-center font-[700] text-[36px]">CP</div>
             <div className="text-[#fff] w-[120%] text-[20px] ">
-              The Vision of our club in the next 2 years is to promote
-              competitive programming in the college and raise students
-              problem-solving skills.
+              The Vision of our club in the next 2 years is to promote competitive programming in
+              the college and raise students problem-solving skills.
             </div>
           </div>
           <div className="bg-[#fff] w-[250px] h-[250px] rounded-[50%] ">
             <Image
               src={v2}
               alt="down"
-              width={"500px"}
-              height={"500px"}
+              width={'500px'}
+              height={'500px'}
               className="rounded-[50%]"
             ></Image>
             <div className=" whitespace-nowrap text-[#fff] text-center font-[700] text-[36px]">
               Strong Community
             </div>
             <div className="text-[#fff] w-[120%] text-[20px] ">
-              The Vision of our club in the next 2 years is to promote
-              competitive programming in the college and raise students
-              problem-solving skills.
+              The Vision of our club in the next 2 years is to promote competitive programming in
+              the college and raise students problem-solving skills.
             </div>
           </div>
           <div className="bg-[#fff] w-[250px] h-[250px] rounded-[50%] ">
             <Image
               src={v3}
               alt="down"
-              width={"500px"}
-              height={"500px"}
+              width={'500px'}
+              height={'500px'}
               className="rounded-[50%]"
             ></Image>
-            <div className="text-[#fff] text-center font-[700] text-[36px]">
-              Mentorship
-            </div>
+            <div className="text-[#fff] text-center font-[700] text-[36px]">Mentorship</div>
             <div className="text-[#fff] w-[120%] text-[20px] ">
-              We also aim to establish a mentorship among juniors and seniors,
-              so that every student learns and grows more.
+              We also aim to establish a mentorship among juniors and seniors, so that every student
+              learns and grows more.
             </div>
           </div>
         </div>

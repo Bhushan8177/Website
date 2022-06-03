@@ -1,10 +1,10 @@
-import React from "react";
-import Link from "next/link";
-import Image from "next/image";
-import AskQuestion from "../assets/askQuestions.svg";
-import styles from "./Questions.module.css";
+import React from 'react';
+import Link from 'next/link';
+import Image from 'next/image';
+import AskQuestion from '../assets/askQuestions.svg';
+import styles from './Questions.module.css';
 
-import classes from "../LandingSlide/LandingSlide.module.css";
+import classes from '../LandingSlide/LandingSlide.module.css';
 
 const Questions = () => {
   return (

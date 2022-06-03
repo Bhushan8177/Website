@@ -1,10 +1,10 @@
-import React, { useState } from "react";
-import NavList from "./NavList";
-import classes from "./Navbar.module.css";
-import Image from "next/image";
-import Link from "next/link";
-import logo from "../assets/CPMC.svg";
-import logo1 from "../assets/CPMCLogo.svg";
+import React, { useState } from 'react';
+import NavList from './NavList';
+import classes from './Navbar.module.css';
+import Image from 'next/image';
+import Link from 'next/link';
+import logo from '../assets/CPMC.svg';
+import logo1 from '../assets/CPMCLogo.svg';
 
 const Navbar = () => {
   const [isActive, setActive] = useState(false);

@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./ClubOperations.module.css";
+import React from 'react';
+import classes from './ClubOperations.module.css';
 
 const Card = ({ number = 1, color, content }) => {
   return (

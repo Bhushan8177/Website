@@ -1,6 +1,6 @@
-import React from "react";
-import classes from "./NavList.module.css";
-import Link from "next/link";
+import React from 'react';
+import classes from './NavList.module.css';
+import Link from 'next/link';
 
 const NavList = ({ onClick }) => {
   return (

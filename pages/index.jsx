@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from 'next/head';
 
 import {
   LandingSlide,
@@ -9,8 +9,8 @@ import {
   JoinClub,
   AboutTeam,
   Questions,
-  ClubOperations,
-} from "../components";
+  ClubOperations
+} from '../components';
 
 export default function Home() {
   return (

@@ -1,9 +1,9 @@
-import React from "react";
-import classes from "./tp.module.css";
-import Card from "./Card";
-import aj from "../assets/Team/aj.jpeg";
+import React from 'react';
+import classes from './tp.module.css';
+import Card from './Card';
+import aj from '../assets/Team/aj.jpeg';
 
-import { DATA, DATA2, DATA3 } from "../assets/Team/Data/index";
+import { DATA, DATA2, DATA3 } from '../assets/Team/Data/index';
 
 const TeamPage = () => {
   return (
@@ -13,9 +13,8 @@ const TeamPage = () => {
           OUR <span className={classes.red}> TEAM</span>
         </h1>
         <p className={classes.para}>
-          Our team consists of some of the most devoted and driven students from
-          various fields who have made significant progress in their coding
-          journey.
+          Our team consists of some of the most devoted and driven students from various fields who
+          have made significant progress in their coding journey.
         </p>
         <div className={classes.team}>
           {DATA?.map((m, i) => (

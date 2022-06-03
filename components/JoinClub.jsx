@@ -1,6 +1,6 @@
-import React from "react";
-import classes from "./LandingSlide/LandingSlide.module.css";
-import Link from "next/link";
+import React from 'react';
+import classes from './LandingSlide/LandingSlide.module.css';
+import Link from 'next/link';
 
 const JoinClub = () => {
   return (
@@ -15,15 +15,14 @@ const JoinClub = () => {
           <span className="text-[#FFFFFF]"> ?</span>
         </h1>
       </div>
-      <div className="text-[1.2rem] w-[70%] sm:w-[100%]  pb-[1.8rem]   break-words font-normal text-center text-[#FFFFFF]  pl-8 pr-8 mr-0  ">
+      <div className="text-[1.2rem] w-[70%] sm:w-[100%]  pb-[1.8rem]  break-words font-normal text-center text-[#FFFFFF]  pl-8 pr-8 mr-0  ">
         <h1>
-          By clicking the button below and filling out the form, you can join
-          the team. C.P.M.C is always looking for motivated members that are
-          eager to explore CP.
+          By clicking the button below and filling out the form, you can join the team. C.P.M.C is
+          always looking for motivated members that are eager to explore CP.
         </h1>
       </div>
       <Link href="/joinus">
-        <button className={classes.btn} style={{ marginTop: "0" }}>
+        <button className={classes.btn} style={{ marginTop: '0' }}>
           <span className={classes.span}>BECOME A MEMBER</span>
           <svg viewBox="0 0 13 10" height="10px" width="15px">
             <path d="M1,5 L11,5"></path>

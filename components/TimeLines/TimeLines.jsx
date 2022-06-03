@@ -1,9 +1,9 @@
-import React from "react";
-import classes from "./TimeLines.module.css";
-import Image from "next/image";
-import t1 from "../assets/t1.svg";
-import t2 from "../assets/t2.svg";
-import t3 from "../assets/t3.svg";
+import React from 'react';
+import classes from './TimeLines.module.css';
+import Image from 'next/image';
+import t1 from '../assets/t1.svg';
+import t2 from '../assets/t2.svg';
+import t3 from '../assets/t3.svg';
 
 const TimeLines = () => {
   return (
@@ -16,8 +16,7 @@ const TimeLines = () => {
           <h1 className={classes.number}>01.</h1>
           <h1 className={classes.heading}>IMPROVE PROBLEM SOLVING</h1>
           <h1 className={classes.sub_heading}>
-            Assisting students in developing their problem-solving skills and
-            coding abilities.
+            Assisting students in developing their problem-solving skills and coding abilities.
           </h1>
         </div>
       </div>
@@ -27,12 +26,10 @@ const TimeLines = () => {
         </div>
         <div className={classes.content_div}>
           <h1 className={classes.number}>02.</h1>
-          <h1 className={classes.heading}>
-            LEARN AND DISCUSS COMPETITIVE PROGRAMMING
-          </h1>
+          <h1 className={classes.heading}>LEARN AND DISCUSS COMPETITIVE PROGRAMMING</h1>
           <h1 className={classes.sub_heading}>
-            Learning and refining competitive programming to crack interviews
-            better and improve critical thinking.
+            Learning and refining competitive programming to crack interviews better and improve
+            critical thinking.
           </h1>
         </div>
       </div>
@@ -42,12 +39,9 @@ const TimeLines = () => {
         </div>
         <div className={classes.content_div}>
           <h1 className={classes.number}>03.</h1>
-          <h1 className={classes.heading}>
-            MENTORING AND HELPING EACH OTHER TO LEARN NEW SKILLS
-          </h1>
+          <h1 className={classes.heading}>MENTORING AND HELPING EACH OTHER TO LEARN NEW SKILLS</h1>
           <h1 className={classes.sub_heading}>
-            Exchanging ideas and guiding students down a route that is devoid of
-            errors.
+            Exchanging ideas and guiding students down a route that is devoid of errors.
           </h1>
         </div>
       </div>

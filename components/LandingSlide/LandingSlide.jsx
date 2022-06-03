@@ -1,13 +1,13 @@
-import React, { Suspense } from "react";
-import Image from "next/image";
-import Link from "next/link";
-import down_arrow from "../assets/downArrow.svg";
-import Logo from "../assets/CPMC.svg";
-import classes from "./LandingSlide.module.css";
+import React, { Suspense } from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
+import down_arrow from '../assets/downArrow.svg';
+import Logo from '../assets/CPMC.svg';
+import classes from './LandingSlide.module.css';
 
-import { AmbientLight } from "three";
-import { Canvas } from "@react-three/fiber";
-import { OrbitControls } from "@react-three/drei";
+import { AmbientLight } from 'three';
+import { Canvas } from '@react-three/fiber';
+import { OrbitControls } from '@react-three/drei';
 
 const LandingSlide = () => {
   return (
@@ -18,14 +18,10 @@ const LandingSlide = () => {
         </div>
         <div className="lg:text-7xl  md:text-4xl text-2xl font-semibold pt-16 justify-center   lg:pb-[2.5rem]  ">
           <div>
-            <h1 className="text-[#89BAEE] text-center">
-              Competetive Programming
-            </h1>
-            <h1 className="text-white text-center pt-4">
-              and Mentorship Club.
-            </h1>
+            <h1 className="text-[#89BAEE] text-center">Competetive Programming</h1>
+            <h1 className="text-white text-center pt-4">and Mentorship Club.</h1>
             <h1 className="text-[#89BAEE] text-center pt-4">
-              DYPCOE, <span className="text-white text-center"> Pune.</span>{" "}
+              DYPCOE, <span className="text-white text-center"> Pune.</span>{' '}
             </h1>
           </div>
 
