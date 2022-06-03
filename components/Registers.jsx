@@ -12,71 +12,71 @@ import MenteeFormStep3 from './assets/step3MenteeRegistration.svg';
 const Registers = () => {
   return (
     <>
-      <div className="lg:pl-32 lg:pr-32 pt-20">
-        <div className=" font-Paytone font-semibold text-4xl text-[#fff] mt-0 ml-12">
+      <div className="pt-20 lg:pl-32 lg:pr-32">
+        <div className=" mt-0 ml-12 font-Paytone text-4xl font-semibold text-[#fff]">
           MENTOR <span className="text-[#f32053]">REGISTRATION</span>
         </div>
-        <div className="lg:flex lg:flex-row mt-8 justify-center ml-8 mr-8 lg:ml-0 lg:mr-0">
-          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc  lg:w-[447px] lg:h-[459px] mb-8">
+        <div className="mt-8 ml-8 mr-8 justify-center lg:ml-0 lg:mr-0 lg:flex lg:flex-row">
+          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4 shadow-abc lg:mr-4 lg:flex lg:h-[459px]  lg:w-[447px] lg:flex-col lg:pt-12">
             <div className="">
               <Image alt="xyz" src={MentorForm} width={410} height={256} />
             </div>
-            <div className="p-2 pt-4 lg:w-[412px]  text-white break-words">
+            <div className="break-words p-2 pt-4  text-white lg:w-[412px]">
               Fill out the form :
               <Link href="/">
                 <h1 className="text-blue-300"> Coming Soon</h1>
               </Link>
             </div>
           </div>
-          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[363px] lg:h-[459px] mb-8">
+          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4 shadow-abc lg:mr-4 lg:flex lg:h-[459px]   lg:w-[363px] lg:flex-col lg:pt-12">
             <div className="">
               <Image alt="xyz" src={MentorFormStep2} width={330} height={256} />
             </div>
-            <div className="p-2 pt-4 lg:w-[330px] text-white break-words">
+            <div className="break-words p-2 pt-4 text-white lg:w-[330px]">
               Once we find your profile perfect for a mentor, we let you know about it through a
               mail. Then you can join our discord server.
             </div>
           </div>
-          <div className="lg:flex lg:flex-col  p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[328px] lg:h-[459px] mb-8">
+          <div className="mb-8 rounded-2xl  bg-[#0b1c2b] p-4 shadow-abc lg:flex lg:h-[459px]   lg:w-[328px] lg:flex-col lg:pt-12">
             <div className=" pt-8 ">
               <Image alt="xyz" src={MentorFormStep3} width={301} height={219} />
             </div>
-            <div className="p-2 pt-4 lg:w-[301px] text-white break-words">
+            <div className="break-words p-2 pt-4 text-white lg:w-[301px]">
               We will let you know of your allotted mentees and the discord could also be used to
               establish meaningful connection.
             </div>
           </div>
         </div>
 
-        <div className=" font-Paytone font-semibold text-4xl text-[#fff] mt-16  ml-12">
+        <div className=" mt-16 ml-12 font-Paytone text-4xl font-semibold  text-[#fff]">
           MENTEE <span className="text-[#f32053]">REGISTRATION</span>
         </div>
-        <div className="lg:flex lg:flex-row mt-8 justify-center ml-8 mr-8 lg:ml-0 lg:mr-0 pb-16">
-          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[447px] lg:h-[459px] mb-8">
+        <div className="mt-8 ml-8 mr-8 justify-center pb-16 lg:ml-0 lg:mr-0 lg:flex lg:flex-row">
+          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4 shadow-abc lg:mr-4 lg:flex lg:h-[459px]   lg:w-[447px] lg:flex-col lg:pt-12">
             <div className="">
               <Image alt="xyz" src={MenteeFormStep1} width={410} height={256} />
             </div>
-            <div className="p-2 text-white pt-4  lg:w-[412px] break-words">
+            <div className="break-words p-2 pt-4  text-white lg:w-[412px]">
               Fill out the form :
               <Link href="/">
                 <h1 className="text-blue-300"> Coming Soon</h1>
               </Link>
             </div>
           </div>
-          <div className="lg:flex lg:flex-col lg:mr-4 p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[363px] lg:h-[459px] mb-8">
+          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4 shadow-abc lg:mr-4 lg:flex lg:h-[459px]   lg:w-[363px] lg:flex-col lg:pt-12">
             <div className="">
               <Image alt="xyz" src={MenteeFormStep2} width={330} height={256} />
             </div>
-            <div className="p-2 pt-4 lg:w-[330px] text-white break-words">
+            <div className="break-words p-2 pt-4 text-white lg:w-[330px]">
               Once we find your profile perfect for a mentor, we let you know about it through a
               mail. Then you can join our discord server.
             </div>
           </div>
-          <div className="lg:flex lg:flex-col  p-4 lg:pt-12 rounded-2xl bg-[#0b1c2b] shadow-abc   lg:w-[328px] lg:h-[459px] mb-8">
+          <div className="mb-8 rounded-2xl  bg-[#0b1c2b] p-4 shadow-abc lg:flex lg:h-[459px]   lg:w-[328px] lg:flex-col lg:pt-12">
             <div className=" pt-8 ">
               <Image alt="xyz" src={MenteeFormStep3} width={301} height={219} />
             </div>
-            <div className="p-2 pt-4 lg:w-[301px] text-white break-words">
+            <div className="break-words p-2 pt-4 text-white lg:w-[301px]">
               We will let you know of your allotted mentees and the discord could also be used to
               establish meaningful connection.
             </div>

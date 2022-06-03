@@ -6,16 +6,16 @@ const JoinClub = () => {
   return (
     <div
       id="joinclub"
-      className="pt-20 pb-16 mb-0 mt-0  bg-[#091E32] flex justify-center items-center flex-col  "
+      className="mb-0 mt-0 flex flex-col  items-center justify-center bg-[#091E32] pt-20 pb-16  "
     >
-      <div className="font-bold lg:text-5xl pb-4 text-3xl text-center justify-center ">
-        <h1 className="text-[#A8ECF0] font-Paytone mb-4">
+      <div className="justify-center pb-4 text-center text-3xl font-bold lg:text-5xl ">
+        <h1 className="mb-4 font-Paytone text-[#A8ECF0]">
           <span className="text-[#FFFFFF]">WANT TO </span>
           JOIN CLUB
           <span className="text-[#FFFFFF]"> ?</span>
         </h1>
       </div>
-      <div className="text-[1.2rem] w-[70%] sm:w-[100%]  pb-[1.8rem]  break-words font-normal text-center text-[#FFFFFF]  pl-8 pr-8 mr-0  ">
+      <div className="mr-0 w-[70%] break-words  pb-[1.8rem]  pl-8 pr-8 text-center text-[1.2rem]  font-normal text-[#FFFFFF] sm:w-[100%]  ">
         <h1>
           By clicking the button below and filling out the form, you can join the team. C.P.M.C is
           always looking for motivated members that are eager to explore CP.
