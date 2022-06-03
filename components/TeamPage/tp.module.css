@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Paytone+One&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&family=Paytone+One&display=swap');
 
 .team_section {
   width: 100vw;
@@ -11,12 +11,12 @@
   padding-top: 20px;
 }
 .heading {
-  color: #469697;
+  /* color: #469697; */
   font-size: 50px;
   font-weight: 600;
   color: #ffffff;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Paytone One", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Paytone One', sans-serif;
 }
 .red {
   color: #f32053;
@@ -28,21 +28,21 @@
   margin-bottom: 95px;
   padding: 0 100px;
   width: 100%;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .team {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 .heading2 {
   margin: 50px 0 100px 0;
   color: #fff;
   font-size: 50px;
-  font-family: "Open Sans", sans-serif;
-  font-family: "Paytone One", sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Paytone One', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
