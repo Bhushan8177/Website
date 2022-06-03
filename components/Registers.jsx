@@ -13,11 +13,11 @@ const Registers = () => {
   return (
     <>
       <div className="pt-20 lg:pl-32 lg:pr-32">
-        <div className=" mt-0 ml-12 font-Paytone text-4xl font-semibold text-[#fff]">
+        <div className=" mt-0 ml-12 font-Paytone text-4xl font-semibold text-[#ffffff]">
           MENTOR <span className="text-[#f32053]">REGISTRATION</span>
         </div>
         <div className="mt-8 ml-8 mr-8 justify-center lg:ml-0 lg:mr-0 lg:flex lg:flex-row">
-          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4 shadow-abc lg:mr-4 lg:flex lg:h-[459px]  lg:w-[447px] lg:flex-col lg:pt-12">
+          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4  lg:mr-4 lg:flex lg:h-[459px]  lg:w-[447px] lg:flex-col lg:pt-12">
             <div className="">
               <Image alt="xyz" src={MentorForm} width={410} height={256} />
             </div>
@@ -28,7 +28,7 @@ const Registers = () => {
               </Link>
             </div>
           </div>
-          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4 shadow-abc lg:mr-4 lg:flex lg:h-[459px]   lg:w-[363px] lg:flex-col lg:pt-12">
+          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4  lg:mr-4 lg:flex lg:h-[459px]   lg:w-[363px] lg:flex-col lg:pt-12">
             <div className="">
               <Image alt="xyz" src={MentorFormStep2} width={330} height={256} />
             </div>
@@ -37,7 +37,7 @@ const Registers = () => {
               mail. Then you can join our discord server.
             </div>
           </div>
-          <div className="mb-8 rounded-2xl  bg-[#0b1c2b] p-4 shadow-abc lg:flex lg:h-[459px]   lg:w-[328px] lg:flex-col lg:pt-12">
+          <div className="mb-8 rounded-2xl  bg-[#0b1c2b] p-4  lg:flex lg:h-[459px]   lg:w-[328px] lg:flex-col lg:pt-12">
             <div className=" pt-8 ">
               <Image alt="xyz" src={MentorFormStep3} width={301} height={219} />
             </div>
@@ -48,11 +48,11 @@ const Registers = () => {
           </div>
         </div>
 
-        <div className=" mt-16 ml-12 font-Paytone text-4xl font-semibold  text-[#fff]">
+        <div className=" mt-16 ml-12 font-Paytone text-4xl font-semibold  text-[#ffffff]">
           MENTEE <span className="text-[#f32053]">REGISTRATION</span>
         </div>
         <div className="mt-8 ml-8 mr-8 justify-center pb-16 lg:ml-0 lg:mr-0 lg:flex lg:flex-row">
-          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4 shadow-abc lg:mr-4 lg:flex lg:h-[459px]   lg:w-[447px] lg:flex-col lg:pt-12">
+          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4  lg:mr-4 lg:flex lg:h-[459px] lg:w-[447px] lg:flex-col lg:pt-12">
             <div className="">
               <Image alt="xyz" src={MenteeFormStep1} width={410} height={256} />
             </div>
@@ -63,7 +63,7 @@ const Registers = () => {
               </Link>
             </div>
           </div>
-          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4 shadow-abc lg:mr-4 lg:flex lg:h-[459px]   lg:w-[363px] lg:flex-col lg:pt-12">
+          <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4  lg:mr-4 lg:flex lg:h-[459px]   lg:w-[363px] lg:flex-col lg:pt-12">
             <div className="">
               <Image alt="xyz" src={MenteeFormStep2} width={330} height={256} />
             </div>
@@ -72,7 +72,7 @@ const Registers = () => {
               mail. Then you can join our discord server.
             </div>
           </div>
-          <div className="mb-8 rounded-2xl  bg-[#0b1c2b] p-4 shadow-abc lg:flex lg:h-[459px]   lg:w-[328px] lg:flex-col lg:pt-12">
+          <div className="mb-8 rounded-2xl  bg-[#0b1c2b] p-4  lg:flex lg:h-[459px]   lg:w-[328px] lg:flex-col lg:pt-12">
             <div className=" pt-8 ">
               <Image alt="xyz" src={MenteeFormStep3} width={301} height={219} />
             </div>
