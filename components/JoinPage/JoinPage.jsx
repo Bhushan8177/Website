@@ -45,9 +45,21 @@ const JoinPage = () => {
       console.log(data);
     } catch (error) {
       console.log(error);
-      const err = await error.json();
-      console.log(err);
+      // const err = await error.json();
+      console.log(error);
     }
+    nameInput.current.value = '';
+    emailInput.current.value = '';
+    phoneNumberInput.current.value = '';
+    divisionInput.current.value = '';
+    branchInput.current.value = '';
+    atCoderIdInput.current.value = '';
+    codeForcesIdInput.current.value = '';
+    codeChefIdInput.current.value = '';
+    leetCodeIdInput.current.value = '';
+    academicYearInput.current.value = '';
+    hackerRankIdInput.current.value = '';
+    hackerEarthIdInput.current.value = '';
   };
 
   return (
