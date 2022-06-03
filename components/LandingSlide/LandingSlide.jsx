@@ -12,9 +12,9 @@ import { OrbitControls } from '@react-three/drei';
 const LandingSlide = () => {
   return (
     <>
-      <div className="justify-center flex flex-col items-center rounded-b-[16%] bg-[#091E32] pt-5">
+      <div className="flex flex-col items-center justify-center rounded-b-[16%] bg-[#091E32] pt-5">
         <div>
-          <Image src={Logo} height="60px" width='120px' alt="logo" />
+          <Image src={Logo} height="60px" width="120px" alt="logo" />
         </div>
         <div className="justify-center  pt-16 text-2xl font-semibold md:text-4xl lg:pb-[2.5rem] lg:text-7xl">
           <div>
