@@ -18,8 +18,8 @@ const Registers = () => {
         </div>
         <div className="mt-8 ml-8 mr-8 justify-center lg:ml-0 lg:mr-0 lg:flex lg:flex-row">
           <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4  lg:mr-4 lg:flex lg:h-[459px]  lg:w-[447px] lg:flex-col lg:pt-12">
-            <div className="">
-              <Image alt="xyz" src={MentorForm} width={410} height={256} />
+            <div className="flex justify-center">
+              <Image alt="xyz" src={MentorForm} width='410px' height='256px' />
             </div>
             <div className="break-words p-2 pt-4  text-white lg:w-[412px]">
               Fill out the form :
@@ -29,8 +29,8 @@ const Registers = () => {
             </div>
           </div>
           <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4  lg:mr-4 lg:flex lg:h-[459px]   lg:w-[363px] lg:flex-col lg:pt-12">
-            <div className="">
-              <Image alt="xyz" src={MentorFormStep2} width={330} height={256} />
+            <div className="flex justify-center">
+              <Image alt="xyz" src={MentorFormStep2} width='330px' height='256px' />
             </div>
             <div className="break-words p-2 pt-4 text-white lg:w-[330px]">
               Once we find your profile perfect for a mentor, we let you know about it through a
@@ -38,8 +38,8 @@ const Registers = () => {
             </div>
           </div>
           <div className="mb-8 rounded-2xl  bg-[#0b1c2b] p-4  lg:flex lg:h-[459px]   lg:w-[328px] lg:flex-col lg:pt-12">
-            <div className=" pt-8 ">
-              <Image alt="xyz" src={MentorFormStep3} width={301} height={219} />
+            <div className=" pt-8 flex justify-center">
+              <Image alt="xyz" src={MentorFormStep3} width='301px' height='219px' />
             </div>
             <div className="break-words p-2 pt-4 text-white lg:w-[301px]">
               We will let you know of your allotted mentees and the discord could also be used to
@@ -53,8 +53,8 @@ const Registers = () => {
         </div>
         <div className="mt-8 ml-8 mr-8 justify-center pb-16 lg:ml-0 lg:mr-0 lg:flex lg:flex-row">
           <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4  lg:mr-4 lg:flex lg:h-[459px] lg:w-[447px] lg:flex-col lg:pt-12">
-            <div className="">
-              <Image alt="xyz" src={MenteeFormStep1} width={410} height={256} />
+            <div className="flex justify-center">
+              <Image alt="xyz" src={MenteeFormStep1} width='410px' height='256px' />
             </div>
             <div className="break-words p-2 pt-4  text-white lg:w-[412px]">
               Fill out the form :
@@ -64,8 +64,8 @@ const Registers = () => {
             </div>
           </div>
           <div className="mb-8 rounded-2xl bg-[#0b1c2b] p-4  lg:mr-4 lg:flex lg:h-[459px]   lg:w-[363px] lg:flex-col lg:pt-12">
-            <div className="">
-              <Image alt="xyz" src={MenteeFormStep2} width={330} height={256} />
+            <div className="flex justify-center">
+              <Image alt="xyz" src={MenteeFormStep2} width='330px' height='256px' />
             </div>
             <div className="break-words p-2 pt-4 text-white lg:w-[330px]">
               Once we find your profile perfect for a mentor, we let you know about it through a
@@ -73,8 +73,8 @@ const Registers = () => {
             </div>
           </div>
           <div className="mb-8 rounded-2xl  bg-[#0b1c2b] p-4  lg:flex lg:h-[459px]   lg:w-[328px] lg:flex-col lg:pt-12">
-            <div className=" pt-8 ">
-              <Image alt="xyz" src={MenteeFormStep3} width={301} height={219} />
+            <div className=" pt-8 flex justify-center">
+              <Image alt="xyz" src={MenteeFormStep3} width='301px' height='219px' />
             </div>
             <div className="break-words p-2 pt-4 text-white lg:w-[301px]">
               We will let you know of your allotted mentees and the discord could also be used to
