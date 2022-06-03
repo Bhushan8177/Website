@@ -46,7 +46,7 @@ const JoinPage = () => {
     } catch (error) {
       console.log(error);
       // const err = await error.json();
-      console.log(error);
+      // console.log(error);
     }
     nameInput.current.value = '';
     emailInput.current.value = '';

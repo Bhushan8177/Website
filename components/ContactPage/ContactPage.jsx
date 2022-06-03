@@ -1,10 +1,37 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import Image from 'next/image';
 
 import contact from '../assets/contact.svg';
 import classes from './ContactPage.module.css';
 
 const Contact = () => {
+  const nameInput = useRef();
+  const emailInput = useRef();
+  const messageInput = useRef();
+
+  const submitFormHandler = async (e) => {
+    e.preventDefault();
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        body: JSON.stringify({
+          name: nameInput.current.value,
+          email: emailInput.current.value,
+          message: messageInput.current.value
+        }),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+      const data = await res.json();
+      console.log(data);
+    } catch (error) {
+      console.log(error);
+    }
+    nameInput.current.value = '';
+    emailInput.current.value = '';
+    messageInput.current.value = '';
+  };
   return (
     <>
       <div className={classes.contact_section}>
@@ -19,17 +46,21 @@ const Contact = () => {
           <div className={classes.form}>
             <div className={classes.input_container}>
               <h1 className={classes.inputheading}>Name*</h1>
-              <input className={classes.input} placeholder="Full Name" />
+              <input className={classes.input} placeholder="Full Name" ref={nameInput} />
             </div>
             <div className={classes.input_container}>
               <h1 className={classes.inputheading}>Email address*</h1>
-              <input className={classes.input} placeholder="Email" />
+              <input className={classes.input} placeholder="Email" ref={emailInput} />
             </div>
             <div className={classes.input_container}>
               <h1 className={classes.inputheading}>Message*</h1>
-              <textarea className={classes.textarea} placeholder="Type Your Message Here..!" />
+              <textarea
+                className={classes.textarea}
+                placeholder="Type Your Message Here..!"
+                ref={messageInput}
+              />
             </div>
-            <button className={classes.btn}>
+            <button className={classes.btn} onClick={submitFormHandler}>
               <div className={classes['svg-wrapper-1']}>
                 <div className={classes['svg-wrapper']}>
                   <svg
