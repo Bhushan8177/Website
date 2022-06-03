@@ -12,11 +12,11 @@ import { OrbitControls } from '@react-three/drei';
 const LandingSlide = () => {
   return (
     <>
-      <div className="justify center flex flex-col items-center rounded-b-[16%] bg-[#091E32] pt-5">
+      <div className="justify-center flex flex-col items-center rounded-b-[16%] bg-[#091E32] pt-5">
         <div>
-          <Image src={Logo} height="60px" alt="logo" />
+          <Image src={Logo} height="60px" width='120px' alt="logo" />
         </div>
-        <div className="justify-center  pt-16 text-2xl font-semibold md:text-4xl lg:pb-[2.5rem]   lg:text-7xl  ">
+        <div className="justify-center  pt-16 text-2xl font-semibold md:text-4xl lg:pb-[2.5rem] lg:text-7xl">
           <div>
             <h1 className="text-center text-[#89BAEE]">Competetive Programming</h1>
             <h1 className="pt-4 text-center text-white">and Mentorship Club.</h1>
@@ -37,7 +37,7 @@ const LandingSlide = () => {
             </Link>
 
             <Link href="#timeline">
-              <div className="relative top-[20px]  flex items-center justify-center transition delay-150 duration-300 hover:-translate-x-1 hover:scale-50 lg:top-[60px]">
+              <div className="relative top-[20px]  flex items-center justify-center transition delay-150 duration-300 hover:-translate-x-1 hover:scale-75 lg:top-[60px]">
                 <Image src={down_arrow} alt="down" width={50} height={50} />
               </div>
             </Link>
