@@ -15,7 +15,7 @@ const JoinClub = () => {
           <span className="text-[#FFFFFF]"> ?</span>
         </h1>
       </div>
-      <div className="mr-0 w-[70%] break-words  pb-[1.8rem]  pl-8 pr-8 text-center text-[1.2rem]  font-normal text-[#FFFFFF] sm:w-[100%]  ">
+      <div className="mr-0  break-words  pb-[1.8rem]  pl-8 pr-8 text-center text-[1.2rem]  font-normal text-[#FFFFFF]   ">
         <h1>
           By clicking the button below and filling out the form, you can join the team. C.P.M.C is
           always looking for motivated members that are eager to explore CP.
